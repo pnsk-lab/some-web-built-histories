@@ -1,0 +1,13 @@
+{
+  "processedAt": "2025-04-22T10:04:28.435Z",
+  "files": {
+    "index.html": {
+      "sourceURL": "https://aistudio.google.com/",
+      "hash": "76b917bb1af61bf8761b54e6681217afd545b3b5d285dcfb92eea8c85cfb2b51"
+    },
+    "base.js": {
+      "sourceURL": "https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.qKZuwPVV7SA.es5.O/am=kLZaMwAY/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD2_l6xTPoFKlljQPxLDQr4u6jKWHfg/m=_b",
+      "hash": "9521d75db0a450e3022724e68e21ae13ad2ef5b659f9041681ade5945e0d3fd6"
+    }
+  }
+}

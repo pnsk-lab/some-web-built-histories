@@ -1,0 +1,13 @@
+{
+  "processedAt": "2025-04-22T10:04:30.828Z",
+  "files": {
+    "index.html": {
+      "sourceURL": "https://gemini.google.com/",
+      "hash": "11c7f5e41f97ea06ebd4fce1cdef48c82eaaa86ffafd54f1eba3d3e26e71c519"
+    },
+    "base.js": {
+      "sourceURL": "https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.K7UFOw-1St0.es5.O/am=zyGk4gj_7u39_57jEAAVABg/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk170vplShttgHU4jdXQrom39qWGVw/m=_b?wli=BardChatUi.6c6yFAGaQ9o.loadWasmSipCoca.O%3A%3B",
+      "hash": "b7a509e67260225cbc6f455ff5d47aa5bb4e23c036ace4801d9c877556fbda71"
+    }
+  }
+}

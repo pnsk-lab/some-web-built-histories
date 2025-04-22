@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "verbatimModuleSyntax": true
+  },
+  "imports": {
+    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.49",
+    "@effect/platform": "npm:@effect/platform@^0.80.11",
+    "@effect/platform-node": "npm:@effect/platform-node@^0.76.21",
+    "effect": "npm:effect@^3.14.11",
+    "effect-ts": "npm:effect-ts@^0.0.1"
+  },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  }
+}
