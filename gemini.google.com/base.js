@@ -1,4 +1,4 @@
-// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.rVJPpBGJEOA.es5.O/am=jyGk4wj_7733_3vOQwBUAGA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk1HJKtVU-hNtusxeEIe1LMaqEcr1w/m=_b?wli=BardChatUi.nVVqV7JqGpU.loadWasmSipCoca.O%3A%3B
+// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.rVJPpBGJEOA.es5.O/am=zyGk4wj_7733_3vOQwBUAGA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk0vnJwKSpU9H3KQLQt51KtFYboUAw/m=_b?wli=BardChatUi.nVVqV7JqGpU.loadWasmSipCoca.O%3A%3B
 'use strict'
 this.default_BardChatUi = this.default_BardChatUi || {}
 ;(function (_) {
@@ -12,7 +12,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         : this)._F_toggles = a || []
     }
     ;(0, _._F_toggles_initialize)([
-      0x23a4218f,
+      0x23a421cf,
       0x37bffc23,
       0x27bfff7b,
       0x150010f3,
