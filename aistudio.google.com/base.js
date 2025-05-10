@@ -1,4 +1,4 @@
-// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.TROkj4gWSyQ.es5.O/am=IIkUADA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD29bE2Gqtj8gq-lcBm9JqQnMkeq_5g/m=_b
+// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.5ZvE8-NLvTo.es5.O/am=IIk0ATA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD29-PfXEWmmh-sjy1BW4iuG7ss3hwQ/m=_b
 'use strict'
 this.default_MakerSuite = this.default_MakerSuite || {}
 ;(function (_) {
@@ -11,7 +11,7 @@ this.default_MakerSuite = this.default_MakerSuite || {}
         ? self
         : this)._F_toggles = a || []
     }
-    ;(0, _._F_toggles_initialize)([0x148920, 0xc0])
+    ;(0, _._F_toggles_initialize)([0x1348920, 0xc0])
     /*
 
  Copyright Google LLC All Rights Reserved.
@@ -126034,6 +126034,9 @@ Dual licensed under the MIT and GPL licenses.
     _.Htb = 'Images & text'
     _.Itb =
       'This output type is only supported when the prompt contains text and or images.'
+    _.Uhb = !0
+    _.xwb = !0
+    _.ywb = 'Veo 2 does not currently support uploading images with children.'
     _._ModuleManager_initialize = function (a, b) {
       if (!_.Cv) {
         if (!_.Dv) return
