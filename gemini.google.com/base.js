@@ -1,4 +1,4 @@
-// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.1nqP7Urla8c.es5.O/am=zzBo5xH_33vv3__vOa8B0AAADA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk38of-3xfPgsDMIZabUyG34F-4llg/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/m=_b?wli=BardChatUi.2bsYWgJhXBY.loadWasmSipCoca.O%3A%3B
+// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.S3DeuUMj0U4.es5.O/am=zzBA5xH_33vv3__vOa8B0AAADA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk2_eWu7CfiXmCmdkHS-LvlEIBHLBw/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/m=_b?wli=BardChatUi.2bsYWgJhXBY.loadWasmSipCoca.O%3A%3B
 'use strict'
 this.default_BardChatUi = this.default_BardChatUi || {}
 ;(function (_) {
@@ -12,7 +12,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         : this)._F_toggles = a || []
     }
     ;(0, _._F_toggles_initialize)([
-      0x276830cf,
+      0x274030cf,
       0x2f7ffc47,
       0x3ffdfef7,
       0x6bce7b,
@@ -4246,7 +4246,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         })
         return d
       }
-    _.ne = Array.prototype.some
+    _.me = Array.prototype.some
       ? function (a, b) {
         return Array.prototype.some.call(a, b, void 0)
       }
@@ -8329,7 +8329,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       return a instanceof Error
     }
     var zla = function (a) {
-        return _.ne(a.qa, function (b) {
+        return _.me(a.qa, function (b) {
           return typeof b[1] === 'function'
         })
       },
@@ -8765,7 +8765,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         for (var d = [], e = 0; e < a.ka.length; e++) {
           var f = a.ka[e].filter(function (l) {
             var r = Ola(this, l)
-            return _.ne(c, function (z) {
+            return _.me(c, function (z) {
               return _.xa(r, z)
             })
           }, a)
