@@ -1,4 +1,4 @@
-// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.3lnxIRTBhNY.2018.O/am=H-EIVHMB_r_33v__33uuACAAQAgM/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk30so-MlpJ666KOY6ViKf5HZDqNjg/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/m=_b?wli=BardChatUi.okpK_SBuW7A.loadWasmSipCoca.O%3A%3B
+// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.3lnxIRTBhNY.2018.O/am=H-FIVnMB_r_33v__33uuACAAQAgM/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk1Ko-3B4FxatTeSgdhgMD0WwJUI3w/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/m=_b?wli=BardChatUi.okpK_SBuW7A.loadWasmSipCoca.O%3A%3B
 'use strict'
 this.default_BardChatUi = this.default_BardChatUi || {}
 ;(function (_) {
@@ -12,7 +12,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         : this)._F_toggles_default_BardChatUi = a || []
     }
     ;(0, _._F_toggles_initialize)([
-      0x1408e11f,
+      0x1648e11f,
       0x3ff805cd,
       0x3ffdef7b,
       0x2b9ef7ff,
