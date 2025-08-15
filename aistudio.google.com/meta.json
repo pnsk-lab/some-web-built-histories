@@ -1,13 +1,13 @@
 {
-  "processedAt": "2025-08-14T07:41:33.062Z",
+  "processedAt": "2025-08-15T07:40:47.667Z",
   "files": {
     "index.html": {
       "sourceURL": "https://aistudio.google.com/",
-      "hash": "da7cf7f7a66761ad007c96a4d730ba422ed7c22d2207a944eb86e130ca7a56d0"
+      "hash": "5a7ef477ca23032014e32ea35354bf4990065a5f73204c3f91cbc59f87f5ea6a"
     },
     "base.js": {
-      "sourceURL": "https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.IruyNwu6J08.2018.O/am=AANAYA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD29Eon1_gK2U9FiNAuW3pLh5iEvRMw/m=_b",
-      "hash": "6099f0cd0447f2a66f9c35ec13080a448f76831d0a9769baa33c3cd99e699880"
+      "sourceURL": "https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.3syHyCipixc.2018.O/am=AAdAYA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD2-uTuSbGeHkFWLJAk5Ehj84OW1oIQ/m=_b",
+      "hash": "cfd032b52fe07455be67b75bbc16e547e19f41bc685eefff33a5dafd5ec30e51"
     }
   }
 }
