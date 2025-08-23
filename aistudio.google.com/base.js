@@ -1,4 +1,4 @@
-// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.zzB55VFhMsE.2018.O/am=AAEgMA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD2-2wv3qtqm8q3r4rmdP4nGx0i_ozA/m=_b
+// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.zzB55VFhMsE.2018.O/am=AAkgMA/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD2_3UMESfpn3EGYluTb7Gr6MBH4sOQ/m=_b
 'use strict'
 this.default_MakerSuite = this.default_MakerSuite || {}
 ;(function (_) {
@@ -11,7 +11,7 @@ this.default_MakerSuite = this.default_MakerSuite || {}
         ? self
         : this)._F_toggles_default_MakerSuite = a || []
     }
-    ;(0, _._F_toggles_initialize)([0x30200100, 0x0])
+    ;(0, _._F_toggles_initialize)([0x30200900, 0x0])
     /*
 
  Copyright The Closure Library Authors.
@@ -97589,6 +97589,22 @@ Dual licensed under the MIT and GPL licenses.
       }],
       component: class {},
     }]
+    _.b3a = {
+      title: 'Save your conversations in Google Drive (Recommended)',
+      content:
+        'Saving in Drive makes it easy to keep your work safe in one place, and easily find past conversations.',
+      RI: !1,
+      DI: 'Enable Google Drive',
+      KF: 'Cancel and use Temporary chat',
+      Dx: 273916,
+      Ex: 273917,
+    }
+    _.c3a =
+      'Your work is currently not being saved and will be lost, we recommend enabling Google Drive, you will always have the option to turn on Temporary chat for conversations you do not want to save to your chat history.'
+    _.d3a = 'incognito'
+    _.e3a = 'Temporary chat'
+    _.f3a =
+      'In Temporary chat, your conversation won\u2019t be saved to History. However, any files you upload will be saved to your Google Drive. Activity may be logged according to our'
     _._ModuleManager_initialize = function (a, b) {
       if (!_.cr) {
         if (!_.fr) return
