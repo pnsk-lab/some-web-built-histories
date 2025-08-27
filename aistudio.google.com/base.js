@@ -1,4 +1,4 @@
-// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.p2wpP0vER_Q.2018.O/am=AhoAgQE/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD2_L1T0OJuuC42nevKNJ_N1p9UKv_g/m=_b
+// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.p2wpP0vER_Q.2018.O/am=AhsAgQE/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD28koj5Ryr7iCpndlTeuiTqgOl4new/m=_b
 'use strict'
 this.default_MakerSuite = this.default_MakerSuite || {}
 ;(function (_) {
@@ -11,7 +11,7 @@ this.default_MakerSuite = this.default_MakerSuite || {}
         ? self
         : this)._F_toggles_default_MakerSuite = a || []
     }
-    ;(0, _._F_toggles_initialize)([0x1001a02, 0x6])
+    ;(0, _._F_toggles_initialize)([0x1001b02, 0x6])
     /*
 
  Copyright The Closure Library Authors.
@@ -94467,6 +94467,13 @@ Dual licensed under the MIT and GPL licenses.
     _.GM.Eb = _.$f({ type: _.GM })
     _.GM.Db = _.ed({ imports: [_.Rv, _.Rv] })
     _.PH = !0
+    var Blb = new Set(
+      'samples/bouquet-image-combo samples/croissant-image-edit samples/dog-image-story samples/frog-mug-image-combo samples/happy-birthday-card samples/plot-graph samples/popart-transformations samples/pup-claymations samples/ramen-recipe-instructions samples/sketch-to-paint samples/swag-ideas'
+        .split(' '),
+    )
+    _.r3a = !0
+    _.s3a = 'gempix-'
+    _.q3a = (a) => Blb.has(a)
     var Clb = class extends _.Y {
       constructor(a) {
         super(a)
