@@ -1,13 +1,13 @@
 {
-  "processedAt": "2025-08-31T07:37:06.357Z",
+  "processedAt": "2025-09-01T07:39:48.699Z",
   "files": {
     "index.html": {
       "sourceURL": "https://gemini.google.com/",
-      "hash": "43d109133652d8fc5beabe7bd22ac15292e50cb71e8a4dce01fdb025e411a027"
+      "hash": "d5163190363f3377efdfc87acaf22b4c87fb1a7f3d1c8abe1ddcbdff780dfcc6"
     },
     "base.js": {
-      "sourceURL": "https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.1zLOxqt2qAU.2018.O/am=RzgSK-cC8P-99_7__95zA4AgAAACAw/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk3hEz-_dNpVbEmFkxly0k0FwYNLjA/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/m=_b?wli=BardChatUi.btleDNjSFiI.loadWasmSipCoca.O%3A%3B",
-      "hash": "468d7e3075f23b45643ff63bc429b99bf49b5da2621b3daa89c7c4638384095b"
+      "sourceURL": "https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.1zLOxqt2qAU.2018.O/am=RzyCK-cC8P-99_7__95zA4AgAAACAw/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk2CVW-vpbdYy_yvolqicDTCsdQwtA/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/m=_b?wli=BardChatUi.btleDNjSFiI.loadWasmSipCoca.O%3A%3B",
+      "hash": "7ee362171066a1602997d7798805011c3c2849c6dce6d5f18968b8c3d8e0066c"
     }
   }
 }
