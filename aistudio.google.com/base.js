@@ -1,4 +1,4 @@
-// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.ZvxQ4W4GqFs.2018.O/am=IhsAgQE/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD2_cKj-kAjHCNVTtoOLQna3Z6VwgcA/m=_b
+// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.TT92QIs5EtI.2018.O/am=IhsAgQE/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD29Kt9jdEf4rF3JmDI6829Th6tgkgQ/m=_b
 'use strict'
 this.default_MakerSuite = this.default_MakerSuite || {}
 ;(function (_) {
@@ -55258,23 +55258,26 @@ ${
         }
       },
       K3a = function (a, b) {
-        b && a.A.F({
-          triggerId: b,
-          callback: (c) => {
-            J3a(a, c)
-          },
-          authuser: 0,
-          enableTestingMode: !1,
-        })
+        b && !a.D.has(b) &&
+          (a.D.add(b),
+            a.A.F({
+              triggerId: b,
+              callback: (c) => {
+                J3a(a, c)
+              },
+              authuser: 0,
+              enableTestingMode: !1,
+            }))
       },
       WE = class {
         constructor(a) {
           this.window = a
           this.Za = _.p(_.BE)
           this.surveyMetadata = {}
+          this.D = new Set()
           this.B = -1
-          this.D = _.p(_.py)
-          a = { locale: 'en-US', apiKey: this.D.B }
+          this.F = _.p(_.py)
+          a = { locale: 'en-US', apiKey: this.F.B }
           a = G3a(I3a, 'help.service.Lazy.create', '5292923', {
             apiKey: a.apiKey || a.apiKey,
             asxUiUri: a.asxUiUri || a.asxUiUri,
