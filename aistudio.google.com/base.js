@@ -1,4 +1,4 @@
-// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.JyEx-OCeEKY.2018.O/am=IBsAgQE/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD2_fAyULguFRN09mBL4yczBLP0IuRw/m=_b
+// Source: https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.JyEx-OCeEKY.2018.O/am=IFsAgQE/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AMOXD2_la9FZivVblyprdwkHxrGvu3M79A/m=_b
 'use strict'
 this.default_MakerSuite = this.default_MakerSuite || {}
 ;(function (_) {
@@ -11,7 +11,7 @@ this.default_MakerSuite = this.default_MakerSuite || {}
         ? self
         : this)._F_toggles_default_MakerSuite = a || []
     }
-    ;(0, _._F_toggles_initialize)([0x1001b20, 0x6])
+    ;(0, _._F_toggles_initialize)([0x1005b20, 0x6])
     /*
 
  Copyright The Closure Library Authors.
@@ -95885,6 +95885,7 @@ Dual licensed under the MIT and GPL licenses.
     _.w2a = 'Temporary chat'
     _.x2a =
       'Your conversations won\u2019t be saved. However, any files you upload will be saved to your Google Drive. Logging policy still apply even in Temporary chat. See'
+    _.zF = !0
     _._ModuleManager_initialize = function (a, b) {
       if (!_.Aq) {
         if (!_.Dq) return

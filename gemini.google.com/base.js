@@ -1,9 +1,24 @@
-// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.UhZMoRmXPeE.2018.O/am=RzgCq3MB-P_ee___f--5AYAgAAACAw/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk3a817vVHq47uaFqFAkSKUtSXEufw/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/dti=1/m=_b?wli=BardChatUi.h_OWOWOtnX4.loadWasmSipCoca.O%3A%3B
+// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.B1qpSUXZgeY.2018.O/am=RziSq3MB-P_ee___f--5AYAgAAACAw/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk3mDyfqnp-aBtY1yOuBDYO_qxSMDw/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/m=_b?wli=BardChatUi.h_OWOWOtnX4.loadWasmSipCoca.O%3A%3B
 'use strict'
 this.default_BardChatUi = this.default_BardChatUi || {}
 ;(function (_) {
   var window = this
   try {
+    _._F_toggles_initialize = function (a) {
+      ;(typeof globalThis !== 'undefined'
+        ? globalThis
+        : typeof self !== 'undefined'
+        ? self
+        : this)._F_toggles_default_BardChatUi = a || []
+    }
+    ;(0, _._F_toggles_initialize)([
+      0x2b923847,
+      0x3fe005ce,
+      0x3ff7bdef,
+      0x2e7bdfff,
+      0x208001,
+      0xc0800,
+    ])
     /*
 
  Copyright The Closure Library Authors.
