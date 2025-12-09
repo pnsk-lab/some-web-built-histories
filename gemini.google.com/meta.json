@@ -1,9 +1,9 @@
 {
-  "processedAt": "2025-12-08T07:43:48.641Z",
+  "processedAt": "2025-12-09T07:42:52.386Z",
   "files": {
     "index.html": {
       "sourceURL": "https://gemini.google.com/",
-      "hash": "72506474c30814e49f29289af5130847802da7b6dc2b13d18126ec83ff183ecc"
+      "hash": "1409b615f848dd4069bb8b6fd1c17eea784b4b89b8b3fed1d8427d9da876cd94"
     },
     "base.js": {
       "sourceURL": "https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.3Dgi99lSFDk.2018.O/am=j8PBJDjNekiPAABIAAE/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk1AyQMHJhl51fTm3wkm9RJ4Be0FgQ/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd;wNp4Gc:k56rsf/dti=1/m=_b?wli=BardChatUi.NcM8O3T7MV8.libheifWasm.O%3A%3BBardChatUi.C5Nemwt7I1Q.loadWasmSipCoca.O%3A%3B",
