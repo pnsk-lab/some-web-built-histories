@@ -1,4 +1,4 @@
-// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.twgI0vlv2-A.2018.O/am=IzQIiIHA-SP0BUAAgAEG/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk1yRUpnIaaeAh_SUHmhQPV0tk0Wow/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;wNp4Gc:k56rsf/dti=1/m=_b?wli=BardChatUi.MJXKBJrmmqM.libheifWasm.O%3A%3BBardChatUi.OX4Rko3b0Kk.loadC2PAExtractorWasm.O%3A%3BBardChatUi.GeJedyVCy5A.loadWasmSipCoca.O%3A%3B
+// Source: https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.i2Bmqko61Wk.2018.O/am=IzQoiIHA-SP0BUAAgAEG/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk0aTUOw5oB9Oonr-3qwSE4DhawOTQ/ee=DGWCxb:CgYiQ;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;wNp4Gc:k56rsf/dti=1/m=_b?wli=BardChatUi.MJXKBJrmmqM.libheifWasm.O%3A%3BBardChatUi.OX4Rko3b0Kk.loadC2PAExtractorWasm.O%3A%3BBardChatUi.GeJedyVCy5A.loadWasmSipCoca.O%3A%3B
 'use strict'
 this.default_BardChatUi = this.default_BardChatUi || {}
 ;(function (_) {
@@ -389,7 +389,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       return a
     }
     _.Ya = function (a) {
-      a.zxd = !0
+      a.Axd = !0
       return a
     }
     _.fb = function (a) {
@@ -836,7 +836,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       a.NRa = void 0
       return !0
     }
-    _.Kb = function (a) {
+    _.Jb = function (a) {
       if (!_.Ib(a) && _.Xa(a, a.Kg[_.Qa] | 0)) throw Error()
     }
     _.Lb = function (a, b) {
@@ -902,7 +902,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       return _.Faa(a)
     }
     _.Rb = function (a, b, c, d, e) {
-      _.Kb(a)
+      _.Jb(a)
       const f = a.Kg
       _.Mb(
         f,
@@ -1097,16 +1097,16 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.oc = function () {
       _.Yb.call(this)
       this.QO = new _.hc(this)
-      this.NDc = this
+      this.PDc = this
       this.bkb = null
     }
     _.rc = function (a, b) {
       let c = a
       b && (c = (0, _.qc)(a, b))
-      c = _.rc.Ebc(c)
-      _.rc.uzc
+      c = _.rc.Gbc(c)
+      _.rc.wzc
         ? setTimeout(c, 0)
-        : (c = _.rc.S6c(c), _.rc.KYb || (_.rc.KYb = _.rc.nRc()), _.rc.KYb(c))
+        : (c = _.rc.U6c(c), _.rc.KYb || (_.rc.KYb = _.rc.pRc()), _.rc.KYb(c))
     }
     Uba = function () {
       let a
@@ -1343,11 +1343,11 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.Zc = function (a, b, c) {
       a.textContent = _.Yc(b)
-      ;(c == null ? 0 : c.D3c) || mca(a)
+      ;(c == null ? 0 : c.F3c) || mca(a)
     }
     _.$c = function (a, b, c) {
       a.src = _.yc(b)
-      ;(c == null ? 0 : c.D3c) || mca(a)
+      ;(c == null ? 0 : c.F3c) || mca(a)
     }
     _.oca = function (a) {
       if (a instanceof _.nca) return a.ha
@@ -1409,9 +1409,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.id = function (a, b) {
       if (_.hca(a)) return a
       a = _.hd(String(a))
-      if (b == null ? 0 : b.yzd) a = a.replace(/(^|[\r\n\t ]) /g, '$1&#160;')
+      if (b == null ? 0 : b.zzd) a = a.replace(/(^|[\r\n\t ]) /g, '$1&#160;')
       if (b == null ? 0 : b.bTa) a = a.replace(/(\r\n|\n|\r)/g, '<br>')
-      if (b == null ? 0 : b.zzd) {
+      if (b == null ? 0 : b.Azd) {
         a = a.replace(/(\t+)/g, '<span style="white-space:pre">$1</span>')
       }
       return _.Mc(a)
@@ -1750,14 +1750,14 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.Hda = function (a = 'base-js', b = !1) {
       var c = {}, d = c.cssRowKey || ''
       let e = c.W4 || ''
-      !c.kvd && !d && window && window._F_cssRowKey &&
+      !c.lvd && !d && window && window._F_cssRowKey &&
         (d = window._F_cssRowKey,
           !e && window._F_combinedSignature &&
           (e = window._F_combinedSignature))
       if (!c.cssRowKey && d && typeof window._F_installCss !== 'function') {
         throw Error('va')
       }
-      const f = c.jyd || _.Dd
+      const f = c.kyd || _.Dd
       a = tda(a)
       b = new f(
         _.Lca(vda('', a), {
@@ -1768,16 +1768,16 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         !0,
         b,
       )
-      d = c.lCd || a && a.hasAttribute('crossorigin')
-      a = c.Lud || a && a.getAttribute('crossorigin')
+      d = c.mCd || a && a.hasAttribute('crossorigin')
+      a = c.Mud || a && a.getAttribute('crossorigin')
       d && (b.aDa = d)
       a && (b.Era = a)
       c.ZCa && (b.ZCa = c.ZCa)
       c.fetchPriority && (b.fetchPriority = c.fetchPriority)
       const g = _.kc()
       g.oa = b
-      g.k3b(!0)
-      _.Ed = c.Ytd === 'BATCH' ? zda : (h) => Promise.resolve(g.load(h))
+      g.l3b(!0)
+      _.Ed = c.Ztd === 'BATCH' ? zda : (h) => Promise.resolve(g.load(h))
     }
     aaa = []
     Ida = Object.create
@@ -2612,12 +2612,12 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     Vea = _.sa()
     Wea = waa()
     _.je.ANDROID = Uea
-    _.je.xld = !1
     _.je.yld = !1
     _.je.zld = !1
     _.je.Ald = !1
     _.je.Bld = !1
     _.je.Cld = !1
+    _.je.Dld = !1
     _.je.CHROME = Vea
     _.je.Kba = _.de
     _.je.PW = Rea
@@ -2626,8 +2626,8 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.je.c_a = Sea
     _.je.H0a = _.Cea
     _.je.uH = Wea
-    _.je.Axd = vaa
-    _.je.Fxd = waa
+    _.je.Bxd = vaa
+    _.je.Gxd = waa
     _.yaa = {}
     _.xaa = null
     var Caa = /[-_.]/g,
@@ -2772,7 +2772,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           ? (super.delete(a), this)
           : super.set(a, this.Dsb(b, !0, !0, this.E2, !1, this.zX))
       }
-      b$c(a) {
+      d$c(a) {
         const b = this.Jwa(a[0], !1, !0)
         a = a[1]
         a = this.E2
@@ -2789,7 +2789,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         if (b !== void 0) {
           var c = this.E2
           return c
-            ? (c = this.Dsb(b, !1, !0, c, this.vGc, this.zX),
+            ? (c = this.Dsb(b, !1, !0, c, this.xGc, this.zX),
               c !== b && super.set(a, c),
               c)
             : b
@@ -3212,7 +3212,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.k.dispatchEvent = function (a) {
       var b, c = this.cP()
       if (c) { for (b = []; c; c = c.cP()) b.push(c) }
-      c = this.NDc
+      c = this.PDc
       const d = a.type || a
       if (typeof a === 'string') a = new _.Zb(a, c)
       else if (a instanceof _.Zb) a.target = a.target || c
@@ -3305,9 +3305,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           return a
         }
       }
-    _.rc.S6c = _.ye
-    _.rc.uzc = !1
-    _.rc.nRc = function () {
+    _.rc.U6c = _.ye
+    _.rc.wzc = !1
+    _.rc.pRc = function () {
       if (typeof MessageChannel !== 'undefined') {
         const a = new MessageChannel()
         let b = {}, c = b
@@ -3329,9 +3329,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         _.fa.setTimeout(a, 0)
       }
     }
-    _.rc.Ebc = (a) => a
+    _.rc.Gbc = (a) => a
     _.xfa(function (a) {
-      _.rc.Ebc = a
+      _.rc.Gbc = a
     })
     var Rfa = class {
         constructor() {
@@ -4026,37 +4026,37 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
     }
     _.Te = {
-      Qrd: Dc('tel'),
-      Pld: new Cc((a) => /^callto:\+?\d*$/i.test(a)),
-      nrd: new Cc((a) => a.indexOf('ssh://') === 0),
-      Lqd: Dc('rtsp'),
-      Ogc: Dc('data'),
-      plc: Dc('http'),
-      qlc: Dc('https'),
+      Rrd: Dc('tel'),
+      Qld: new Cc((a) => /^callto:\+?\d*$/i.test(a)),
+      prd: new Cc((a) => a.indexOf('ssh://') === 0),
+      Mqd: Dc('rtsp'),
+      Qgc: Dc('data'),
+      rlc: Dc('http'),
+      slc: Dc('https'),
       EXTENSION: new Cc((a) =>
         a.indexOf('chrome-extension://') === 0 ||
         a.indexOf('moz-extension://') === 0 ||
         a.indexOf('ms-browser-extension://') === 0 ||
         a.indexOf('safari-web-extension://') === 0
       ),
-      Vjc: Dc('ftp'),
-      Jtc: new Cc((a) => /^[^:]*([/?#]|$)/.test(a)),
-      ioc: Dc('mailto'),
-      apd: Dc('intent'),
-      vpd: Dc('market'),
-      dpd: Dc('itms'),
-      epd: Dc('itms-appss'),
-      fpd: Dc('itms-services'),
-      Wmd: Dc('fb-messenger'),
-      Lsd: Dc('whatsapp'),
-      frd: new Cc((a) => a.indexOf('sip:') === 0 || a.indexOf('sips:') === 0),
-      jrd: Dc('sms'),
-      Dsd: Dc('vnd.youtube'),
-      Bod: Dc('googlehome'),
-      Cod: Dc('googlehomesdk'),
+      Xjc: Dc('ftp'),
+      Ltc: new Cc((a) => /^[^:]*([/?#]|$)/.test(a)),
+      koc: Dc('mailto'),
+      bpd: Dc('intent'),
+      wpd: Dc('market'),
+      epd: Dc('itms'),
+      fpd: Dc('itms-appss'),
+      hpd: Dc('itms-services'),
+      Xmd: Dc('fb-messenger'),
+      Msd: Dc('whatsapp'),
+      grd: new Cc((a) => a.indexOf('sip:') === 0 || a.indexOf('sips:') === 0),
+      krd: Dc('sms'),
+      Esd: Dc('vnd.youtube'),
+      Cod: Dc('googlehome'),
+      Dod: Dc('googlehomesdk'),
       LINE: Dc('line'),
     }
-    bca = [_.Te.Ogc, _.Te.plc, _.Te.qlc, _.Te.ioc, _.Te.Vjc, _.Te.Jtc]
+    bca = [_.Te.Qgc, _.Te.rlc, _.Te.slc, _.Te.koc, _.Te.Xjc, _.Te.Ltc]
     dca = typeof URL === 'function'
     Kga = ['data:', 'http:', 'https:', 'mailto:', 'ftp:']
     fca = /^\s*(?!javascript:)(?:[\w+.-]+:|[^:/?#]*(?:[/?#]|$))/i
@@ -4071,9 +4071,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.Ue = new _.Lc(_.wc, Iga ? Iga.emptyHTML : '')
     _.Lga = {
-      nod: 0,
-      Hmd: 1,
-      Imd: 2,
+      ood: 0,
+      Imd: 1,
+      Jmd: 2,
       0: 'FORMATTED_HTML_CONTENT',
       1: 'EMBEDDED_INTERNAL_CONTENT',
       2: 'EMBEDDED_TRUSTED_EXTERNAL_CONTENT',
@@ -4731,11 +4731,11 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       ERROR: 'error',
       IDLE: 'idle',
       Ana: 'active',
-      szc: 'userIdle',
-      rzc: 'userActive',
+      uzc: 'userIdle',
+      tzc: 'userActive',
     }
     _.k = hda.prototype
-    _.k.k3b = function () {}
+    _.k.l3b = function () {}
     _.k.VUa = function () {}
     _.k.rAa = function () {}
     _.k.Jpa = function () {
@@ -5089,39 +5089,39 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
     }
     Qha = {
-      Kqd: 'k',
-      lmd: 'ck',
-      Epd: 'm',
-      Qmd: 'exm',
-      Omd: 'excm',
-      pld: 'am',
-      vld: 'amc',
-      wpd: 'mm',
-      Hqd: 'rt',
-      Sod: 'd',
-      Pmd: 'ed',
-      mrd: 'sv',
-      qmd: 'deob',
-      Old: 'cb',
-      Vld: 'ccb',
-      drd: 'rs',
-      Qqd: 'sdch',
-      Zod: 'im',
-      rmd: 'dg',
-      Lmd: 'br',
-      Kmd: 'br-d',
-      Mmd: 'rb',
-      Tsd: 'zs',
-      Msd: 'wt',
-      Vmd: 'ee',
-      lrd: 'sm',
+      Lqd: 'k',
+      mmd: 'ck',
+      Fpd: 'm',
+      Rmd: 'exm',
+      Pmd: 'excm',
+      qld: 'am',
+      wld: 'amc',
+      xpd: 'mm',
+      Iqd: 'rt',
+      Tod: 'd',
+      Qmd: 'ed',
+      nrd: 'sv',
+      rmd: 'deob',
+      Pld: 'cb',
+      Wld: 'ccb',
+      erd: 'rs',
+      Rqd: 'sdch',
+      apd: 'im',
+      smd: 'dg',
+      Mmd: 'br',
+      Lmd: 'br-d',
+      Nmd: 'rb',
+      Usd: 'zs',
+      Nsd: 'wt',
+      Wmd: 'ee',
+      mrd: 'sm',
       METADATA: 'md',
-      Dod: 'gssmodulesetproto',
-      Asd: 'ujg',
-      zsd: 'sp',
-      brd: 'slk',
-      vmd: 'dti',
-      cpd: 'ic',
+      Eod: 'gssmodulesetproto',
+      Bsd: 'ujg',
+      Asd: 'sp',
+      crd: 'slk',
+      wmd: 'dti',
+      dpd: 'ic',
     }
     $ha = RegExp('^(gapi\\.)?loaded(_g|_h)?(_[0-9a-z]+)+$')
     aia = RegExp('^[a-zA-Z0-9-_*]+$')
@@ -5466,7 +5466,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         this.Xa = !1
         this.Fa()
       }
-      Za(a, b, { WY: c, onError: d, yja: e, xQc: f } = {}) {
+      Za(a, b, { WY: c, onError: d, yja: e, zQc: f } = {}) {
         if (!a) throw Error('pa')
         if (this.nb) {
           for (const g of document.getElementsByTagName('style')) pia(this, g)
@@ -5548,7 +5548,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       this.Qa = new _.sc()
       this.mj = null
       this.wb =
-        this.Kb =
+        this.Lb =
         this.Bb =
         this.nb =
         this.mb =
@@ -5559,7 +5559,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       _.da.call(this, `Error loading ${a}: ${b}`)
     }
     _.Wd(Cia, _.da)
-    Df.prototype.k3b = function (a) {
+    Df.prototype.l3b = function (a) {
       this.mb = a
     }
     Df.prototype.VUa = function (a) {
@@ -5706,7 +5706,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         const c = a.isActive()
         c != b && (Gia(a, c ? rf.Ana : rf.IDLE), a.Bb = c)
         b = a.kVb()
-        b != a.Kb && (Gia(a, b ? rf.rzc : rf.szc), a.Kb = b)
+        b != a.Lb && (Gia(a, b ? rf.tzc : rf.uzc), a.Lb = b)
       },
       Dia = function (a, b, c) {
         a.ka[b]
@@ -5754,7 +5754,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         if (Object.keys(this.ma).length > 0 && !a.ob) throw Error('ta')
         c = (0, _.qc)(a.Za, a, _.Ea(d), this.ka, {
           WY: this.ma,
-          xQc: !!c,
+          zQc: !!c,
           onError: (e, f, g = !1) =>
             Lia(this, this.wa, d, e != null ? e : void 0, f, b, g),
           nya: (0, _.qc)(this.Nb, this),
