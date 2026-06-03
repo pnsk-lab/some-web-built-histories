@@ -1,4 +1,4 @@
-// Source: https://gemini.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.HQzHE872nqw.2018.O/am=IQCExAAF9Bt04QkGQIDjNcADAAAACAE/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk3Xi523ZsRwhxUuUnPClrCBJ99Kaw/ee=DGWCxb:CgYiQ;NJ1rfe:yGfSdd;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;wNp4Gc:k56rsf/dti=1/m=_b?wli=BardChatUi.f4DRTqgiV6A.libheifWasm.O%3A%3BBardChatUi.4CzTgv4xmgU.loadWasmSipCoca.O%3A%3B
+// Source: https://gemini.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.KBdUoRR3v6Y.2018.O/am=IQCExAAF9Bt04QkGQIDjNcADAAAACAE/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AL3bBk0Iv5L17jHc75IkQkV_xIXOw0Dulw/ee=DGWCxb:CgYiQ;NJ1rfe:yGfSdd;Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;wNp4Gc:k56rsf/dti=1/m=_b?wli=BardChatUi.f4DRTqgiV6A.libheifWasm.O%3A%3BBardChatUi.c9CD2XtFE3k.loadWasmSipCoca.O%3A%3B
 'use strict'
 this.default_BardChatUi = this.default_BardChatUi || {}
 ;(function (_) {
@@ -369,7 +369,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       return a
     }
     _.Sa = function (a) {
-      a.fre = !0
+      a.xre = !0
       return a
     }
     _.Wa = function (a) {
@@ -579,7 +579,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       var e = d !== void 0
       d = !!d
       var f = _.nb(_.ob), g
-      !e && f && (g = a[f]) && g.R7a(nba)
+      !e && f && (g = a[f]) && g.T7a(nba)
       f = []
       var p = a.length
       g = 4294967295
@@ -643,9 +643,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
             return a.length === 0 && b & 1 ? void 0 : _.qba(a, b, _.pb)
           }
           if (_.Pa(a)) return tba(a)
-          if ('function' == typeof _.sb && a instanceof _.sb) return a.gM()
+          if ('function' == typeof _.sb && a instanceof _.sb) return a.hM()
           if (a instanceof _.tb) {
-            return a = a.size !== 0 ? a.ulb(rba) : void 0, a
+            return a = a.size !== 0 ? a.xlb(rba) : void 0, a
           }
           return
       }
@@ -726,11 +726,11 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
       if (_.Pa(a)) return Cba(a)
       if (a instanceof _.tb) {
-        b = a.S9
+        b = a.V9
         if (b & 2) return a
         if (!a.size) return
-        c = _.Oa(a.ulb())
-        if (a.Pfa) {
+        c = _.Oa(a.xlb())
+        if (a.Tfa) {
           for (a = 0; a < c.length; a++) {
             let d = c[a], e = d[1]
             e == null || typeof e !== 'object'
@@ -757,7 +757,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.Eba = function (a, b, c) {
       a = new a.constructor(b)
       c && _.Kaa(a, !0)
-      a.peb = _.Qa
+      a.seb = _.Qa
       return a
     }
     Cba = function (a) {
@@ -786,7 +786,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       _.Ma(b, 2048)
       a.ji = b
       _.Kaa(a, !1)
-      a.peb = void 0
+      a.seb = void 0
       return !0
     }
     _.xb = function (a) {
@@ -927,8 +927,8 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
     }
     _.Ib = function () {
-      this.sY = this.sY
-      this.hna = this.hna
+      this.uY = this.uY
+      this.kna = this.kna
     }
     _.Kb = function (a, b) {
       _.Jb.call(this, a ? a.type : '')
@@ -964,7 +964,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       this.capture = !!d
       this.handler = e
       this.key = ++Mba
-      this.removed = this.Sta = !1
+      this.removed = this.Wta = !1
     }
     _.Lb = function (a, b, c) {
       for (let d in a) b.call(c, a[d], d, a)
@@ -1033,7 +1033,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       _.Sb && _.Sb.Fb(a)
     }
     _.Vb = function () {
-      _.Sb && _.Sb.fea()
+      _.Sb && _.Sb.jea()
     }
     _.Wb = function (a, b) {
       b.hasOwnProperty('displayName') || (b.displayName = a.toString())
@@ -1041,17 +1041,17 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.Xb = function () {
       _.Ib.call(this)
-      this.PY = new _.Rb(this)
-      this.Und = this
-      this.gOb = null
+      this.RY = new _.Rb(this)
+      this.hod = this
+      this.mOb = null
     }
     _.Zb = function (a, b) {
       var c = a
       b && (c = (0, _.Yb)(a, b))
-      c = _.Zb.ZSc(c)
-      _.Zb.Jid
+      c = _.Zb.dTc(c)
+      _.Zb.Wid
         ? setTimeout(c, 0)
-        : (c = _.Zb.ZWd(c), _.Zb.pBc || (_.Zb.pBc = _.Zb.qDd()), _.Zb.pBc(c))
+        : (c = _.Zb.pXd(c), _.Zb.vBc || (_.Zb.vBc = _.Zb.CDd()), _.Zb.vBc(c))
     }
     $ba = function () {
       for (var a; a = Wba.remove();) {
@@ -1285,11 +1285,11 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.wca = function (a, b, c) {
       a.textContent = _.Hc(b)
-      ;(c == null ? 0 : c.gTd) || vca(a)
+      ;(c == null ? 0 : c.uTd) || vca(a)
     }
     _.Ic = function (a, b, c) {
       a.src = _.lc(b)
-      ;(c == null ? 0 : c.gTd) || vca(a)
+      ;(c == null ? 0 : c.uTd) || vca(a)
     }
     _.yca = function (a) {
       if (a instanceof _.xca) return a.ha
@@ -1351,9 +1351,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.Pc = function (a, b) {
       if (_.oca(a)) return a
       a = _.Oc(String(a))
-      if (b == null ? 0 : b.ite) a = a.replace(/(^|[\r\n\t ]) /g, '$1&#160;')
-      if (b == null ? 0 : b.Lfb) a = a.replace(/(\r\n|\n|\r)/g, '<br>')
-      if (b == null ? 0 : b.jte) {
+      if (b == null ? 0 : b.Ate) a = a.replace(/(^|[\r\n\t ]) /g, '$1&#160;')
+      if (b == null ? 0 : b.Ofb) a = a.replace(/(\r\n|\n|\r)/g, '<br>')
+      if (b == null ? 0 : b.Bte) {
         a = a.replace(/(\t+)/g, '<span style="white-space:pre">$1</span>')
       }
       return _.yc(a)
@@ -1435,7 +1435,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     Wca = function (a) {
       return a.parts.map((b) => {
-        var c = b.x5a
+        var c = b.y5a
         return `${b.url}${c ? ` ${c}` : ''}`
       }).join(' , ')
     }
@@ -1445,7 +1445,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.Yca = function (a) {
       var b = a.split(/[?#]/), c = /[?]/.test(a) ? '?' + b[1] : ''
       return {
-        pmb: b[0],
+        tmb: b[0],
         params: c,
         fragment: /[#]/.test(a) ? '#' + (c ? b[2] : b[1]) : '',
       }
@@ -1461,7 +1461,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.Uc = function (a, b) {
       a = _.Yca(_.lc(a).toString())
-      return _.Zca(a.pmb, a.params, a.fragment, b)
+      return _.Zca(a.tmb, a.params, a.fragment, b)
     }
     _.Zca = function (a, b, c, d) {
       function e(g, p) {
@@ -1478,8 +1478,8 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.$ca = function (a, b) {
       a = _.Yca(_.lc(a).toString())
-      var c = a.pmb.slice(-1) === '/' ? '' : '/'
-      b = a.pmb + c + encodeURIComponent(b)
+      var c = a.tmb.slice(-1) === '/' ? '' : '/'
+      b = a.tmb + c + encodeURIComponent(b)
       return _.kc(b + a.params + a.fragment)
     }
     _.ada = function (a) {
@@ -1500,7 +1500,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       c.send(b)
     }
     dda = function (a, b) {
-      var c = b || _.Vc(), d = c.Mg()
+      var c = b || _.Vc(), d = c.Og()
       b = c.createElement('STYLE')
       var e = _.sca(d)
       e && b.setAttribute('nonce', e)
@@ -1672,7 +1672,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       _.Sba((d) => {
         for (let e of c) {
           let f = b[e]
-          for (let g of Object.keys(f)) d.XHa(e, g)
+          for (let g of Object.keys(f)) d.bIa(e, g)
         }
       })
       return Ada = !0
@@ -1742,36 +1742,36 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       return { ids: c, dependencies: e }
     }
     _.Nda = function (a = 'base-js', b = !1) {
-      var c = {}, d = c.cssRowKey || '', e = c.nia || ''
-      !c.Roe && !d && window && window._F_cssRowKey &&
+      var c = {}, d = c.cssRowKey || '', e = c.ria || ''
+      !c.jpe && !d && window && window._F_cssRowKey &&
         (d = window._F_cssRowKey,
           !e && window._F_combinedSignature &&
           (e = window._F_combinedSignature))
       if (!c.cssRowKey && d && typeof window._F_installCss !== 'function') {
         throw Error('xa')
       }
-      var f = c.Ore || _.Mda
+      var f = c.fse || _.Mda
       a = sda(a)
       b = new f(
         _.Ica(uda('', a), {
-          RJb: 'base-js url is generated from ModulesetsUrlBuilder',
+          VJb: 'base-js url is generated from ModulesetsUrlBuilder',
         }),
         d,
         e,
         !0,
         b,
       )
-      d = c.iwe || a && a.hasAttribute('crossorigin')
-      a = c.soe || a && a.getAttribute('crossorigin')
-      d && (b.mYa = d)
+      d = c.zwe || a && a.hasAttribute('crossorigin')
+      a = c.Joe || a && a.getAttribute('crossorigin')
+      d && (b.pYa = d)
       a &&
-        (b.dKa = a)
-      c.lYa && (b.lYa = c.lYa)
+        (b.hKa = a)
+      c.oYa && (b.oYa = c.oYa)
       c.fetchPriority && (b.fetchPriority = c.fetchPriority)
       var g = _.Tb()
       g.Ba = b
-      g.dIc(!0)
-      _.ed = c.Hne === 'BATCH' ? yda : (p) => Promise.resolve(g.load(p))
+      g.iIc(!0)
+      _.ed = c.Yne === 'BATCH' ? yda : (p) => Promise.resolve(g.load(p))
     }
     aaa = []
     Oda = Object.create
@@ -2208,8 +2208,8 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         gea(b)
         var c = hea(this, b)
         b = new Set(this)
-        var d = c.pUb
-        c = c.YJb
+        var d = c.vUb
+        c = c.cKb
         for (var e = d.next(); !e.done;) {
           c.has(e.value) && b.delete(e.value), e = d.next()
         }
@@ -2221,8 +2221,8 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         fea(this)
         gea(b)
         var c = new Set(), d = hea(this, b)
-        b = d.pUb
-        d = d.YJb
+        b = d.vUb
+        d = d.cKb
         for (var e = b.next(); !e.done;) {
           d.has(e.value) && c.add(e.value), e = b.next()
         }
@@ -2237,13 +2237,13 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         ) throw new TypeError('o')
       },
       hea = function (a, b) {
-        if (a.size <= b.size) a = { pUb: a.keys(), YJb: b }
+        if (a.size <= b.size) a = { vUb: a.keys(), cKb: b }
         else {
           b = b.keys()
           if (
             typeof b !== 'object' || b === null || typeof b.next !== 'function'
           ) throw new TypeError('p')
-          a = { pUb: b, YJb: a }
+          a = { vUb: b, cKb: a }
         }
         return a
       },
@@ -2660,22 +2660,22 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     ofa = _.laa()
     pfa = zaa()
     _.Nd.ANDROID = nfa
-    _.Nd.ude = !1
-    _.Nd.vde = !1
-    _.Nd.wde = !1
-    _.Nd.xde = !1
-    _.Nd.yde = !1
-    _.Nd.zde = !1
+    _.Nd.Lde = !1
+    _.Nd.Mde = !1
+    _.Nd.Nde = !1
+    _.Nd.Ode = !1
+    _.Nd.Pde = !1
+    _.Nd.Qde = !1
     _.Nd.CHROME = ofa
-    _.Nd.hra = _.Fd
-    _.Nd.V8 = kfa
-    _.Nd.t1b = _.Ed
-    _.Nd.Aob = mfa
-    _.Nd.Bob = lfa
-    _.Nd.Aqb = _.Wea
-    _.Nd.rP = pfa
-    _.Nd.gre = yaa
-    _.Nd.lre = zaa
+    _.Nd.jra = _.Fd
+    _.Nd.Y8 = kfa
+    _.Nd.z1b = _.Ed
+    _.Nd.Dob = mfa
+    _.Nd.Eob = lfa
+    _.Nd.Dqb = _.Wea
+    _.Nd.sP = pfa
+    _.Nd.yre = yaa
+    _.Nd.Dre = zaa
     var Caa = /[-_.]/g,
       Aaa = { '-': '+', _: '/', '.': '=' },
       qfa = typeof structuredClone != 'undefined'
@@ -2758,24 +2758,24 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         }
       })()
     Lfa = function (a) {
-      if (a.S9 & 2) throw Error('D')
+      if (a.V9 & 2) throw Error('D')
     }
     _.tb = class extends Kfa {
       constructor(a, b, c = iba, d = iba) {
         super()
-        this.S9 = a[_.La] | 0
-        this.Pfa = b
-        this.AQa = c
-        this.MXb = this.Pfa ? jba : d
+        this.V9 = a[_.La] | 0
+        this.Tfa = b
+        this.FQa = c
+        this.SXb = this.Tfa ? jba : d
         for (let e = 0; e < a.length; e++) {
           let f = a[e], g = c(f[0], !1, !0), p = f[1]
           b
             ? p === void 0 && (p = null)
-            : p = d(f[1], !1, !0, void 0, void 0, this.S9)
+            : p = d(f[1], !1, !0, void 0, void 0, this.V9)
           super.set(g, p)
         }
       }
-      ulb(a) {
+      xlb(a) {
         return _.Gaa(Array.from(super.entries(), a))
       }
       clear() {
@@ -2784,24 +2784,24 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
       delete(a) {
         Lfa(this)
-        return super.delete(this.AQa(a, !0, !1))
+        return super.delete(this.FQa(a, !0, !1))
       }
       entries() {
-        if (this.Pfa) {
+        if (this.Tfa) {
           var a = super.keys()
           a = new xfa(a, kba, this)
         } else a = super.entries()
         return a
       }
       values() {
-        if (this.Pfa) {
+        if (this.Tfa) {
           var a = super.keys()
           a = new xfa(a, _.tb.prototype.get, this)
         } else a = super.values()
         return a
       }
       forEach(a, b) {
-        this.Pfa
+        this.Tfa
           ? super.forEach((c, d, e) => {
             a.call(b, e.get(d), d, e)
           })
@@ -2809,31 +2809,31 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
       set(a, b) {
         Lfa(this)
-        a = this.AQa(a, !0, !1)
+        a = this.FQa(a, !0, !1)
         return a == null
           ? this
           : b == null
           ? (super.delete(a), this)
-          : super.set(a, this.MXb(b, !0, !0, this.Pfa, !1, this.S9))
+          : super.set(a, this.SXb(b, !0, !0, this.Tfa, !1, this.V9))
       }
-      m0d(a) {
-        var b = this.AQa(a[0], !1, !0)
+      C0d(a) {
+        var b = this.FQa(a[0], !1, !0)
         a = a[1]
-        a = this.Pfa
+        a = this.Tfa
           ? a === void 0 ? null : a
-          : this.MXb(a, !1, !0, void 0, !1, this.S9)
+          : this.SXb(a, !1, !0, void 0, !1, this.V9)
         super.set(b, a)
       }
       has(a) {
-        return super.has(this.AQa(a, !1, !1))
+        return super.has(this.FQa(a, !1, !1))
       }
       get(a) {
-        a = this.AQa(a, !1, !1)
+        a = this.FQa(a, !1, !1)
         var b = super.get(a)
         if (b !== void 0) {
-          var c = this.Pfa
+          var c = this.Tfa
           return c
-            ? (c = this.MXb(b, !1, !0, c, this.Xqd, this.S9),
+            ? (c = this.SXb(b, !1, !0, c, this.krd, this.V9),
               c !== b && super.set(a, c),
               c)
             : b
@@ -2849,7 +2849,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.Qd = {}
     _.Rd = function (a, b, c, d, e) {
       b = _.Cb(a.ji, b, c, e)
-      if (b !== null || d && a.peb !== _.Qa) return b
+      if (b !== null || d && a.seb !== _.Qa) return b
     }
     _.Cb = function (a, b, c, d) {
       if (b === -1) return null
@@ -2897,7 +2897,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         return _.Ra(this)
       }
     }
-    _.k.prototype.Ola = _.aa(0)
+    _.k.prototype.Rla = _.aa(0)
     _.k.prototype[_.Iaa] = _.Jaa
     _.k.prototype.toString = function () {
       return this.ji.toString()
@@ -2920,12 +2920,12 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         }
       }
     }
-    _.Ib.prototype.sY = !1
+    _.Ib.prototype.uY = !1
     _.Ib.prototype.isDisposed = function () {
-      return this.sY
+      return this.uY
     }
     _.Ib.prototype.dispose = function () {
-      this.sY || (this.sY = !0, this.Wb())
+      this.uY || (this.uY = !0, this.Wb())
     }
     _.Ib.prototype[Symbol.dispose] = function () {
       this.dispose()
@@ -2934,12 +2934,12 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       this.addOnDisposeCallback(_.vd(_.Gb, a))
     }
     _.Ib.prototype.addOnDisposeCallback = function (a, b) {
-      this.sY
+      this.uY
         ? b !== void 0 ? a.call(b) : a()
-        : (this.hna || (this.hna = []), b && (a = a.bind(b)), this.hna.push(a))
+        : (this.kna || (this.kna = []), b && (a = a.bind(b)), this.kna.push(a))
     }
     _.Ib.prototype.Wb = function () {
-      if (this.hna) { for (; this.hna.length;) this.hna.shift()() }
+      if (this.kna) { for (; this.kna.length;) this.kna.shift()() }
     }
     _.Jb = function (a, b) {
       this.type = 'function' == typeof _.Sd && a instanceof _.Sd ? String(a) : a
@@ -3021,7 +3021,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       var a = this.vj
       a.preventDefault ? a.preventDefault() : a.returnValue = !1
     }
-    _.Kb.prototype.q8a = _.aa(1)
+    _.Kb.prototype.s8a = _.aa(1)
     _.Ufa = 'closure_listenable_' + (Math.random() * 1E6 | 0)
     _.Td = function (a) {
       return !(!a || !a[_.Ufa])
@@ -3043,8 +3043,8 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       a || (a = this.listeners[f] = [], this.ha++)
       var g = Wfa(a, b, d, e)
       g > -1
-        ? (b = a[g], c || (b.Sta = !1))
-        : (b = new _.Nba(b, this.src, f, !!d, e), b.Sta = c, a.push(b))
+        ? (b = a[g], c || (b.Wta = !1))
+        : (b = new _.Nba(b, this.src, f, !!d, e), b.Wta = c, a.push(b))
       return b
     }
     _.Rb.prototype.remove = function (a, b, c, d) {
@@ -3080,8 +3080,8 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
       return b
     }
-    _.Rb.prototype.pka = _.aa(3)
-    _.Rb.prototype.wwa = function (a, b, c, d) {
+    _.Rb.prototype.ska = _.aa(3)
+    _.Rb.prototype.Awa = function (a, b, c, d) {
       a = this.listeners[a.toString()]
       var e = -1
       a && (e = Wfa(a, b, c, d))
@@ -3164,12 +3164,12 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           c = _.aga(c),
           _.Td(a)
             ? a.xh(b, c, d, e)
-            : a && (a = _.Wd(a)) && (b = a.wwa(b, c, d, e)) && _.Yd(b)}
+            : a && (a = _.Wd(a)) && (b = a.Awa(b, c, d, e)) && _.Yd(b)}
     }
     _.Yd = function (a) {
       if (typeof a === 'number' || !a || a.removed) return !1
       var b = a.src
-      if (_.Td(b)) return b.TO(a)
+      if (_.Td(b)) return b.UO(a)
       var c = a.type, d = a.proxy
       b.removeEventListener
         ? b.removeEventListener(c, d, a.capture)
@@ -3187,7 +3187,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.fga = function (a, b) {
       var c = a.listener, d = a.handler || a.src
-      a.Sta && _.Yd(a)
+      a.Wta && _.Yd(a)
       return c.call(d, b)
     }
     ega = function (a, b) {
@@ -3215,7 +3215,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         if (!a.ha) throw Error('T`' + a.ma)
         b.map((d) => d.ha).forEach((d) => {
           _.Sba((e) => {
-            e.XHa(a.ha, d)
+            e.bIa(a.ha, d)
           })
         })
       }
@@ -3236,11 +3236,11 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.xd(_.Xb, _.Ib)
     _.Xb.prototype[_.Ufa] = !0
     _.h = _.Xb.prototype
-    _.h.cZ = function () {
-      return this.gOb
+    _.h.eZ = function () {
+      return this.mOb
     }
     _.h.Es = function (a) {
-      this.gOb = a
+      this.mOb = a
     }
     _.h.addEventListener = function (a, b, c, d) {
       _.Vd(this, a, b, c, d)
@@ -3249,9 +3249,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       _.Xd(this, a, b, c, d)
     }
     _.h.dispatchEvent = function (a) {
-      var b, c = this.cZ()
-      if (c) { for (b = []; c; c = c.cZ()) b.push(c) }
-      c = this.Und
+      var b, c = this.eZ()
+      if (c) { for (b = []; c; c = c.eZ()) b.push(c) }
+      c = this.hod
       var d = a.type || a
       if (typeof a === 'string') a = new _.Jb(a, c)
       else if (a instanceof _.Jb) a.target = a.target || c
@@ -3265,16 +3265,16 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       if (b) {
         for (f = b.length - 1; !a.ka && f >= 0; f--) {
           var g = a.currentTarget = b[f]
-          e = g.Yva(d, !0, a) && e
+          e = g.cwa(d, !0, a) && e
         }
       }
       a.ka ||
         (g = a.currentTarget = c,
-          e = g.Yva(d, !0, a) && e,
-          a.ka || (e = g.Yva(d, !1, a) && e))
+          e = g.cwa(d, !0, a) && e,
+          a.ka || (e = g.cwa(d, !1, a) && e))
       if (b) {
         for (f = 0; !a.ka && f < b.length; f++) {
-          g = a.currentTarget = b[f], e = g.Yva(d, !1, a) && e
+          g = a.currentTarget = b[f], e = g.cwa(d, !1, a) && e
         }
       }
       return e
@@ -3282,25 +3282,25 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.h.Wb = function () {
       _.Xb.Hc.Wb.call(this)
       this.removeAllListeners()
-      this.gOb = null
+      this.mOb = null
     }
     _.h.listen = function (a, b, c, d) {
-      return this.PY.add(String(a), b, !1, c, d)
+      return this.RY.add(String(a), b, !1, c, d)
     }
     _.h.Uf = function (a, b, c, d) {
-      return this.PY.add(String(a), b, !0, c, d)
+      return this.RY.add(String(a), b, !0, c, d)
     }
     _.h.xh = function (a, b, c, d) {
-      return this.PY.remove(String(a), b, c, d)
+      return this.RY.remove(String(a), b, c, d)
     }
-    _.h.TO = function (a) {
-      return Xfa(this.PY, a)
+    _.h.UO = function (a) {
+      return Xfa(this.RY, a)
     }
     _.h.removeAllListeners = function (a) {
-      return this.PY ? this.PY.removeAll(a) : 0
+      return this.RY ? this.RY.removeAll(a) : 0
     }
-    _.h.Yva = function (a, b, c) {
-      a = this.PY.listeners[String(a)]
+    _.h.cwa = function (a, b, c) {
+      a = this.RY.listeners[String(a)]
       if (!a) return !0
       a = a.concat()
       var d = !0
@@ -3308,18 +3308,18 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         let f = a[e]
         if (f && !f.removed && f.capture == b) {
           let g = f.listener, p = f.handler || f.src
-          f.Sta && this.TO(f)
+          f.Wta && this.UO(f)
           d = g.call(p, c) !== !1 && d
         }
       }
       return d && !c.defaultPrevented
     }
-    _.h.pka = _.aa(2)
-    _.h.wwa = function (a, b, c, d) {
-      return this.PY.wwa(String(a), b, c, d)
+    _.h.ska = _.aa(2)
+    _.h.Awa = function (a, b, c, d) {
+      return this.RY.Awa(String(a), b, c, d)
     }
     _.h.hasListener = function (a, b) {
-      return this.PY.hasListener(a !== void 0 ? String(a) : void 0, b)
+      return this.RY.hasListener(a !== void 0 ? String(a) : void 0, b)
     }
     _.ae =
       typeof AsyncContext !== 'undefined' &&
@@ -3347,9 +3347,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           return a
         }
       }
-    _.Zb.ZWd = _.ae
-    _.Zb.Jid = !1
-    _.Zb.qDd = function () {
+    _.Zb.pXd = _.ae
+    _.Zb.Wid = !1
+    _.Zb.CDd = function () {
       if (typeof MessageChannel !== 'undefined') {
         let a = new MessageChannel(), b = {}, c = b
         a.port1.onmessage = function () {
@@ -3370,9 +3370,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         _.ea.setTimeout(a, 0)
       }
     }
-    _.Zb.ZSc = (a) => a
+    _.Zb.dTc = (a) => a
     _.Rfa(function (a) {
-      _.Zb.ZSc = a
+      _.Zb.dTc = a
     })
     var jga = class {
         constructor() {
@@ -3821,25 +3821,25 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     Iga = function (a) {
       _.ca.call(this)
-      this.Qia = a
+      this.Uia = a
     }
     _.xd(Iga, _.ca)
     Iga.prototype.message = 'Deferred has already fired'
     Iga.prototype.name = 'AlreadyCalledError'
     _.he = function (a) {
       _.ca.call(this)
-      this.Qia = a
+      this.Uia = a
     }
     _.xd(_.he, _.ca)
     _.he.prototype.message = 'Deferred was canceled'
     _.he.prototype.name = 'CanceledError'
     var Oga = function (a) {
       this.ha = _.ea.setTimeout((0, _.Yb)(this.throwError, this), 0)
-      this.NY = a
+      this.PY = a
     }
     Oga.prototype.throwError = function () {
       delete Nga[this.ha]
-      throw this.NY
+      throw this.PY
     }
     var Nga = {}
     var Rga, Sga, Tga
@@ -4066,37 +4066,37 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
     }
     _.qe = {
-      ele: rc('tel'),
-      Rde: new qc((a) => /^callto:\+?\d*$/i.test(a)),
-      Fke: new qc((a) => a.indexOf('ssh://') === 0),
-      Wje: rc('rtsp'),
-      DYc: rc('data'),
-      F2c: rc('http'),
-      G2c: rc('https'),
+      wle: rc('tel'),
+      iee: new qc((a) => /^callto:\+?\d*$/i.test(a)),
+      Wke: new qc((a) => a.indexOf('ssh://') === 0),
+      nke: rc('rtsp'),
+      PYc: rc('data'),
+      S2c: rc('http'),
+      T2c: rc('https'),
       EXTENSION: new qc((a) =>
         a.indexOf('chrome-extension://') === 0 ||
         a.indexOf('moz-extension://') === 0 ||
         a.indexOf('ms-browser-extension://') === 0 ||
         a.indexOf('safari-web-extension://') === 0
       ),
-      e1c: rc('ftp'),
-      Aad: new qc((a) => /^[^:]*([/?#]|$)/.test(a)),
-      M5c: rc('mailto'),
-      Ihe: rc('intent'),
-      eie: rc('market'),
-      Lhe: rc('itms'),
-      Mhe: rc('itms-appss'),
-      Nhe: rc('itms-services'),
-      rfe: rc('fb-messenger'),
-      mme: rc('whatsapp'),
-      xke: new qc((a) => a.indexOf('sip:') === 0 || a.indexOf('sips:') === 0),
-      Bke: rc('sms'),
-      eme: rc('vnd.youtube'),
-      jhe: rc('googlehome'),
-      khe: rc('googlehomesdk'),
+      r1c: rc('ftp'),
+      Nad: new qc((a) => /^[^:]*([/?#]|$)/.test(a)),
+      Z5c: rc('mailto'),
+      Zhe: rc('intent'),
+      vie: rc('market'),
+      cie: rc('itms'),
+      eie: rc('itms-appss'),
+      fie: rc('itms-services'),
+      Ife: rc('fb-messenger'),
+      Dme: rc('whatsapp'),
+      Oke: new qc((a) => a.indexOf('sip:') === 0 || a.indexOf('sips:') === 0),
+      Ske: rc('sms'),
+      vme: rc('vnd.youtube'),
+      Ahe: rc('googlehome'),
+      Bhe: rc('googlehomesdk'),
       LINE: rc('line'),
     }
-    hca = [_.qe.DYc, _.qe.F2c, _.qe.G2c, _.qe.M5c, _.qe.e1c, _.qe.Aad]
+    hca = [_.qe.PYc, _.qe.S2c, _.qe.T2c, _.qe.Z5c, _.qe.r1c, _.qe.Nad]
     kca = typeof URL === 'function'
     Wga = ['data:', 'http:', 'https:', 'mailto:', 'ftp:']
     mca = /^\s*(?!javascript:)(?:[\w+.-]+:|[^:/?#]*(?:[/?#]|$))/i
@@ -4111,9 +4111,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.te = new _.xc(_.ic, Uga ? Uga.emptyHTML : '')
     _.Xga = {
-      Sge: 0,
-      bfe: 1,
-      cfe: 2,
+      jhe: 0,
+      sfe: 1,
+      tfe: 2,
       0: 'FORMATTED_HTML_CONTENT',
       1: 'EMBEDDED_INTERNAL_CONTENT',
       2: 'EMBEDDED_TRUSTED_EXTERNAL_CONTENT',
@@ -4204,7 +4204,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
     }
     _.ue.prototype.pF = _.aa(9)
-    _.ue.prototype.Fz = _.aa(8)
+    _.ue.prototype.Iz = _.aa(8)
     _.bha = new Set(
       'accent-color align-content align-items align-self alignment-baseline all appearance aspect-ratio backdrop-filter backface-visibility background background-attachment background-blend-mode background-clip background-color background-image background-origin background-position background-position-x background-position-y background-repeat background-size block-size border border-block border-block-color border-block-end border-block-end-color border-block-end-style border-block-end-width border-block-start border-block-start-color border-block-start-style border-block-start-width border-block-style border-block-width border-bottom border-bottom-color border-bottom-left-radius border-bottom-right-radius border-bottom-style border-bottom-width border-collapse border-color border-end-end-radius border-end-start-radius border-image border-image-outset border-image-repeat border-image-slice border-image-source border-image-width border-inline border-inline-color border-inline-end border-inline-end-color border-inline-end-style border-inline-end-width border-inline-start border-inline-start-color border-inline-start-style border-inline-start-width border-inline-style border-inline-width border-left border-left-color border-left-style border-left-width border-radius border-right border-right-color border-right-style border-right-width border-spacing border-start-end-radius border-start-start-radius border-style border-top border-top-color border-top-left-radius border-top-right-radius border-top-style border-top-width border-width bottom box-shadow box-sizing caption-side caret-color clear clip clip-path clip-rule color color-interpolation color-interpolation-filters color-scheme column-count column-fill column-gap column-rule column-rule-color column-rule-style column-rule-width column-span column-width columns contain contain-intrinsic-block-size contain-intrinsic-height contain-intrinsic-inline-size contain-intrinsic-size contain-intrinsic-width content content-visibility counter-increment counter-reset counter-set cx cy d display dominant-baseline empty-cells field-sizing fill fill-opacity fill-rule filter flex flex-basis flex-direction flex-flow flex-grow flex-shrink flex-wrap float flood-color flood-opacity font font-family font-feature-settings font-kerning font-optical-sizing font-palette font-size font-size-adjust font-stretch font-style font-synthesis font-synthesis-small-caps font-synthesis-style font-synthesis-weight font-variant font-variant-alternates font-variant-caps font-variant-east-asian font-variant-emoji font-variant-ligatures font-variant-numeric font-variant-position font-variation-settings font-weight forced-color-adjust gap grid grid-area grid-auto-columns grid-auto-flow grid-auto-rows grid-column grid-column-end grid-column-gap grid-column-start grid-gap grid-row grid-row-end grid-row-gap grid-row-start grid-template grid-template-areas grid-template-columns grid-template-rows height hyphenate-character hyphenate-limit-chars hyphens image-orientation image-rendering inline-size inset inset-area inset-block inset-block-end inset-block-start inset-inline inset-inline-end inset-inline-start isolation justify-content justify-items justify-self left letter-spacing lighting-color line-break line-clamp line-gap-override line-height list-style list-style-image list-style-position list-style-type margin margin-block margin-block-end margin-block-start margin-bottom margin-inline margin-inline-end margin-inline-start margin-left margin-right margin-top marker marker-end marker-mid marker-start mask mask-clip mask-composite mask-image mask-mode mask-origin mask-position mask-repeat mask-size mask-type max-block-size max-height max-inline-size max-width min-block-size min-height min-inline-size min-width mix-blend-mode object-fit object-position object-view-box opacity order orphans outline outline-color outline-offset outline-style outline-width overflow overflow-anchor overflow-block overflow-clip-margin overflow-inline overflow-wrap overflow-x overflow-y padding padding-block padding-block-end padding-block-start padding-bottom padding-inline padding-inline-end padding-inline-start padding-left padding-right padding-top paint-order perspective perspective-origin place-content place-items place-self position quotes r resize right rotate row-gap ruby-align ruby-position rx ry scale shape-image-threshold shape-margin shape-outside shape-rendering stop-color stop-opacity stroke stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width tab-size table-layout text-align text-align-last text-anchor text-autospace text-box-edge text-box-trim text-combine-upright text-decoration text-decoration-color text-decoration-line text-decoration-skip-ink text-decoration-style text-decoration-thickness text-emphasis text-emphasis-color text-emphasis-position text-emphasis-style text-indent text-orientation text-overflow text-rendering text-shadow text-size-adjust text-spacing text-spacing-trim text-transform text-underline-offset text-underline-position text-wrap top transform transform-box transform-origin transform-style translate unicode-bidi vector-effect vertical-align visibility white-space white-space-collapse widows width will-change word-break word-spacing word-wrap writing-mode x y z-index zoom animation animation-composition animation-delay animation-direction animation-duration animation-fill-mode animation-iteration-count animation-name animation-play-state animation-range animation-range-end animation-range-start animation-timeline animation-timing-function offset offset-anchor offset-distance offset-path offset-position offset-rotate transition transition-behavior transition-delay transition-duration transition-property transition-timing-function'
         .split(' '),
@@ -4222,12 +4222,12 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       return (c == null ? 0 : c.has(b))
         ? c.get(b)
         : a.ma.has(b)
-        ? { Ay: 1 }
+        ? { By: 1 }
         : (c = a.na.get(b))
         ? c
         : a.ka && [...a.ka].some((d) => b.indexOf(d) === 0)
-        ? { Ay: 1 }
-        : { Ay: 0 }
+        ? { By: 1 }
+        : { By: 0 }
     }
     _.ve = class {
       constructor(a, b, c, d, e) {
@@ -4246,12 +4246,12 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         'ARTICLE SECTION NAV ASIDE H1 H2 H3 H4 H5 H6 HEADER FOOTER ADDRESS P HR PRE BLOCKQUOTE OL UL LH LI DL DT DD FIGURE FIGCAPTION MAIN DIV EM STRONG SMALL S CITE Q DFN ABBR RUBY RB RT RTC RP DATA TIME CODE VAR SAMP KBD SUB SUP I B U MARK BDI BDO SPAN BR WBR NOBR INS DEL PICTURE PARAM TRACK MAP TABLE CAPTION COLGROUP COL TBODY THEAD TFOOT TR TD TH SELECT DATALIST OPTGROUP OPTION OUTPUT PROGRESS METER FIELDSET LEGEND DETAILS SUMMARY MENU DIALOG SLOT CANVAS FONT CENTER ACRONYM BASEFONT BIG DIR HGROUP STRIKE TT'
           .split(' '),
       hha = [
-        ['A', new Map([['href', { Ay: 7 }]])],
-        ['AREA', new Map([['href', { Ay: 7 }]])],
+        ['A', new Map([['href', { By: 7 }]])],
+        ['AREA', new Map([['href', { By: 7 }]])],
         [
           'LINK',
           new Map([['href', {
-            Ay: 5,
+            By: 5,
             conditions: new Map([[
               'rel',
               new Set(
@@ -4261,30 +4261,30 @@ this.default_BardChatUi = this.default_BardChatUi || {}
             ]]),
           }]]),
         ],
-        ['SOURCE', new Map([['src', { Ay: 5 }], ['srcset', { Ay: 6 }]])],
-        ['IMG', new Map([['src', { Ay: 5 }], ['srcset', { Ay: 6 }]])],
-        ['VIDEO', new Map([['src', { Ay: 5 }]])],
-        ['AUDIO', new Map([['src', { Ay: 5 }]])],
+        ['SOURCE', new Map([['src', { By: 5 }], ['srcset', { By: 6 }]])],
+        ['IMG', new Map([['src', { By: 5 }], ['srcset', { By: 6 }]])],
+        ['VIDEO', new Map([['src', { By: 5 }]])],
+        ['AUDIO', new Map([['src', { By: 5 }]])],
       ],
       iha =
         'title aria-atomic aria-autocomplete aria-busy aria-checked aria-current aria-disabled aria-dropeffect aria-expanded aria-haspopup aria-hidden aria-invalid aria-label aria-level aria-live aria-multiline aria-multiselectable aria-orientation aria-posinset aria-pressed aria-readonly aria-relevant aria-required aria-selected aria-setsize aria-sort aria-valuemax aria-valuemin aria-valuenow aria-valuetext alt align autocapitalize autocomplete autocorrect autofocus autoplay bgcolor border cellpadding cellspacing checked cite color cols colspan controls controlslist coords crossorigin datetime disabled download draggable enctype face formenctype frameborder height hreflang hidden inert ismap label lang loop max maxlength media minlength min multiple muted nonce open playsinline placeholder preload rel required reversed role rows rowspan selected shape size sizes slot span spellcheck start step summary translate type usemap valign value width wrap itemscope itemtype itemid itemprop itemref'
           .split(' '),
       jha = [
         ['dir', {
-          Ay: 3,
+          By: 3,
           conditions: new Map([['dir', new Set(['auto', 'ltr', 'rtl'])]]),
         }],
         ['async', {
-          Ay: 3,
+          By: 3,
           conditions: new Map([['async', new Set(['async'])]]),
         }],
         ['loading', {
-          Ay: 3,
+          By: 3,
           conditions: new Map([['loading', new Set(['eager', 'lazy'])]]),
         }],
-        ['poster', { Ay: 5 }],
+        ['poster', { By: 5 }],
         ['target', {
-          Ay: 3,
+          By: 3,
           conditions: new Map([['target', new Set(['_self', '_blank'])]]),
         }],
       ],
@@ -4293,7 +4293,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         new Set(gha.concat(['BUTTON', 'INPUT'])),
         new Map(hha),
         new Set(iha.concat(['class', 'id', 'name'])),
-        new Map(jha.concat([['style', { Ay: 1 }]])),
+        new Map(jha.concat([['style', { By: 1 }]])),
       ),
       mha = new _.ve(
         new Set(
@@ -4303,7 +4303,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         new Set(
           iha.concat(['class', 'id', 'tabindex', 'contenteditable', 'name']),
         ),
-        new Map(jha.concat([['style', { Ay: 1 }]])),
+        new Map(jha.concat([['style', { By: 1 }]])),
         new Set(['data-', 'aria-']),
       )
     var nha
@@ -4356,7 +4356,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           f = !0
         }
         if (f) {
-          switch (e.Ay) {
+          switch (e.By) {
             case 1:
               Rc(c, p, t)
               break
@@ -4370,25 +4370,25 @@ this.default_BardChatUi = this.default_BardChatUi || {}
               break
             case 5:
               a.ha
-                ? (e = { type: 2, attributeName: p, Ikc: d },
+                ? (e = { type: 2, attributeName: p, Nkc: d },
                   f = _.Sca(t),
                   (e = a.ha(f, e)) && Rc(c, p, e.toString()))
                 : Rc(c, p, t)
               break
             case 6:
               if (a.ha) {
-                e = { type: 2, attributeName: p, Ikc: d }
+                e = { type: 2, attributeName: p, Nkc: d }
                 f = []
                 for (let v of t.split(',')) {
                   let [z, B] = v.trim().split(/\s+/, 2)
-                  f.push({ url: z, x5a: B })
+                  f.push({ url: z, y5a: B })
                 }
                 g = f
                 f = { parts: [] }
                 for (let v of g) {
                   g = _.Sca(v.url),
                     (g = a.ha(g, e)) &&
-                    f.parts.push({ url: g.toString(), x5a: v.x5a })
+                    f.parts.push({ url: g.toString(), y5a: v.y5a })
                 }
                 Rc(c, p, Wca(f))
               } else Rc(c, p, t)
@@ -4396,7 +4396,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
             case 7:
               e = t
               if (a.na) {
-                e = { type: 2, attributeName: p, Ikc: d }
+                e = { type: 2, attributeName: p, Nkc: d }
                 f = _.Sca(t)
                 e = a.na(f, e)
                 if (e === null) break
@@ -4647,7 +4647,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.h = _.xe.prototype
     _.h.ob = _.Vc
-    _.h.Mg = function () {
+    _.h.Og = function () {
       return this.io
     }
     _.h.Ya = function (a) {
@@ -4657,11 +4657,11 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.h.getElementsByTagName = function (a, b) {
       return (b || this.io).getElementsByTagName(String(a))
     }
-    _.h.YJ = _.aa(11)
+    _.h.ZJ = _.aa(11)
     _.h.vc = _.aa(13)
     _.h.Xc = _.aa(15)
     _.h.setProperties = _.Be
-    _.h.Yk = function (a) {
+    _.h.Zk = function (a) {
       return _.Ce(a || this.getWindow())
     }
     _.h.Yb = function (a, b, c) {
@@ -4714,26 +4714,26 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       return !0
     }
     _.h.Cl = _.Fe
-    _.h.qtc = _.yha
-    _.h.VOa = _.zha
-    _.h.UOa = _.Aha
+    _.h.wtc = _.yha
+    _.h.aPa = _.zha
+    _.h.ZOa = _.Aha
     _.h.removeNode = _.Ge
-    _.h.XPb = _.Bha
+    _.h.dQb = _.Bha
     _.h.getChildren = _.Cha
-    _.h.kNa = _.Eha
-    _.h.xDb = _.Fha
-    _.h.zpc = _.Gha
+    _.h.pNa = _.Eha
+    _.h.BDb = _.Fha
+    _.h.Epc = _.Gha
     _.h.isElement = _.Ie
     _.h.isWindow = function (a) {
       return _.td(a) && a.window == a
     }
-    _.h.Awa = _.Je
+    _.h.Ewa = _.Je
     _.h.contains = _.Le
-    _.h.N8a = _.ye
+    _.h.P8a = _.ye
     _.h.zm = _.Me
-    _.h.WA = _.Ne
+    _.h.YA = _.Ne
     _.h.Cr = _.Lha
-    _.h.cK = _.Oe
+    _.h.dK = _.Oe
     sd = sd || {}
     var Nha = function () {
       _.Ib.call(this)
@@ -4749,7 +4749,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     _.Rfa(function (a) {
       eda.prototype.execute = a(eda.prototype.execute)
     })
-    sd.sqb = eda
+    sd.vqb = eda
     _.xd(Wc, _.Ib)
     Wc.prototype.wa = null
     Wc.prototype.Ea = Nha
@@ -4759,16 +4759,16 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     var Oha = function (a, b, c) {
         a.na || (a.na = [])
-        a.na.push(new sd.sqb(b, c))
+        a.na.push(new sd.vqb(b, c))
       },
       Pha = function (a, b) {
         a.ka || (a.ka = [])
-        a.ka.push(new sd.sqb(b, void 0))
+        a.ka.push(new sd.vqb(b, void 0))
       }
     Wc.prototype.isLoaded = function () {
       return !!this.oa
     }
-    Wc.prototype.fea = function () {
+    Wc.prototype.jea = function () {
       this.oa = new Nha()
     }
     Wc.prototype.onLoad = function (a) {
@@ -4802,34 +4802,34 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       _.Gb(this.oa)
       this.wa = null
     }
-    sd.rqb = Wc
+    sd.uqb = Wc
     var Rha = {
       ERROR: 'error',
       IDLE: 'idle',
-      bX: 'active',
-      Gid: 'userIdle',
-      Fid: 'userActive',
+      dX: 'active',
+      Tid: 'userIdle',
+      Sid: 'userActive',
     }
     _.h = gda.prototype
-    _.h.dIc = function () {}
-    _.h.kib = function () {}
-    _.h.bVa = function () {}
-    _.h.XHa = function () {
+    _.h.iIc = function () {}
+    _.h.oib = function () {}
+    _.h.eVa = function () {}
+    _.h.bIa = function () {
       throw Error('ha')
     }
-    _.h.NTa = function () {
+    _.h.QTa = function () {
       throw Error('ia')
     }
-    _.h.opc = function () {
+    _.h.upc = function () {
       return this.wa
     }
-    _.h.kVa = function (a) {
+    _.h.nVa = function (a) {
       this.wa = a
     }
     _.h.isActive = function () {
       return !1
     }
-    _.h.Ywc = function () {
+    _.h.exc = function () {
       return !1
     }
     var Sha, Tha
@@ -4840,7 +4840,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         _.ua(b.styleSheets, (e) => (e.ownerNode || e.owningElement) == d)
     }
     Tha = function (a) {
-      return _.Bd(Rga(a), (b) => b.N8a())
+      return _.Bd(Rga(a), (b) => b.P8a())
     }
     _.Uha = class {
       constructor(a) {
@@ -5160,40 +5160,40 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       }
     }
     dia = {
-      Vje: 'k',
-      Cee: 'ck',
-      pie: 'm',
-      lfe: 'exm',
-      jfe: 'excm',
-      kde: 'am',
-      rde: 'amc',
-      gie: 'mm',
-      Qje: 'rt',
-      Ahe: 'd',
-      kfe: 'ed',
-      Eke: 'sv',
-      Gee: 'deob',
-      Pde: 'cb',
-      Yde: 'ccb',
-      Qde: 'cbi',
-      vke: 'rs',
-      cke: 'sdch',
-      Hhe: 'im',
-      Hee: 'dg',
-      ffe: 'br',
-      efe: 'br-d',
-      gfe: 'rb',
-      wme: 'zs',
-      ome: 'wt',
-      qfe: 'ee',
-      Dke: 'sm',
+      mke: 'k',
+      Tee: 'ck',
+      Gie: 'm',
+      Cfe: 'exm',
+      Afe: 'excm',
+      Bde: 'am',
+      Ide: 'amc',
+      xie: 'mm',
+      hke: 'rt',
+      Rhe: 'd',
+      Bfe: 'ed',
+      Vke: 'sv',
+      Yee: 'deob',
+      gee: 'cb',
+      pee: 'ccb',
+      hee: 'cbi',
+      Mke: 'rs',
+      tke: 'sdch',
+      Yhe: 'im',
+      Zee: 'dg',
+      wfe: 'br',
+      vfe: 'br-d',
+      xfe: 'rb',
+      Nme: 'zs',
+      Fme: 'wt',
+      Hfe: 'ee',
+      Uke: 'sm',
       METADATA: 'md',
-      lhe: 'gssmodulesetproto',
-      ame: 'ujg',
-      Zle: 'sp',
-      tke: 'slk',
-      Nee: 'dti',
-      Khe: 'ic',
+      Che: 'gssmodulesetproto',
+      rme: 'ujg',
+      qme: 'sp',
+      Kke: 'slk',
+      ffe: 'dti',
+      bie: 'ic',
     }
     nia = RegExp('^(gapi\\.)?loaded(_g|_h)?(_[0-9a-z]+)+$')
     oia = RegExp('^[a-zA-Z0-9-_*]+$')
@@ -5209,7 +5209,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         return a
       },
       qia = !0,
-      ria = (a, b, { cssRowKey: c, nia: d, Gaa: e, callback: f } = {}) => {
+      ria = (a, b, { cssRowKey: c, ria: d, Jaa: e, callback: f } = {}) => {
         if (b) { for (let g of b) if (!oia.test(g)) throw Error('la`' + g) }
         Ve(a, 'm', b.join(','))
         e && lia(a, e)
@@ -5225,21 +5225,21 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       sia = (
         a,
         b,
-        { aQb: c = [], cssRowKey: d, nia: e, Gaa: f, callback: g } = {},
+        { gQb: c = [], cssRowKey: d, ria: e, Jaa: f, callback: g } = {},
       ) => {
         a = pia(a)
         jia(a, c)
-        return ria(a, b, { cssRowKey: d, nia: e, Gaa: f, callback: g })
+        return ria(a, b, { cssRowKey: d, ria: e, Jaa: f, callback: g })
       },
       tia = (
         a,
         b,
         {
-          bQb: c = [],
-          aQb: d = [],
+          hQb: c = [],
+          gQb: d = [],
           cssRowKey: e,
-          nia: f,
-          Gaa: g,
+          ria: f,
+          Jaa: g,
           callback: p,
         } = {},
       ) => {
@@ -5247,7 +5247,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         Ve(a, 'd', '1')
         iia(a, c)
         jia(a, d)
-        return ria(a, b, { cssRowKey: e, nia: f, Gaa: g, callback: p })
+        return ria(a, b, { cssRowKey: e, ria: f, Jaa: g, callback: p })
       }
     _.uia = function (a) {
       switch (a) {
@@ -5265,7 +5265,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     _.wia = function () {}
     _.xd(_.wia, _.Eda)
-    _.wia.prototype.ZP = function () {
+    _.wia.prototype.bQ = function () {
       return new XMLHttpRequest()
     }
     _.via = new _.wia()
@@ -5275,7 +5275,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         })
       },
       xia = function (a) {
-        var b = {}, c = b.i1 ? b.i1.ZP() : _.via.ZP()
+        var b = {}, c = b.l1 ? b.l1.bQ() : _.via.bQ()
         return (new _.ee(function (d, e) {
           var f
           try {
@@ -5304,11 +5304,11 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           b.withCredentials && (c.withCredentials = b.withCredentials)
           b.responseType && (c.responseType = b.responseType)
           b.mimeType && c.overrideMimeType(b.mimeType)
-          b.Jy > 0 && (f = _.ea.setTimeout(function () {
+          b.Ky > 0 && (f = _.ea.setTimeout(function () {
             c.onreadystatechange = () => {}
             c.abort()
             e(new Aia(a, c))
-          }, b.Jy))
+          }, b.Ky))
           try {
             c.send(null)
           } catch (g) {
@@ -5351,7 +5351,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         },
         p = () => {
           g()
-          var v = e.filter((z) => !_.Tb().Yx(z).isLoaded())
+          var v = e.filter((z) => !_.Tb().Zx(z).isLoaded())
           v.length !== 0
             ? d(v, `Response was successful but was missing module(s) ${v}.`)
             : c()
@@ -5361,10 +5361,10 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           f == 0 && p()
         }
       b.forEach((v) => {
-        v = _.Tb().Yx(v)
+        v = _.Tb().Zx(v)
         v.isLoaded()
           ? t()
-          : (v.ma || (v.ma = []), v.ma.push(new sd.sqb(t, void 0)), Pha(v, t))
+          : (v.ma || (v.ma = []), v.ma.push(new sd.vqb(t, void 0)), Pha(v, t))
       })
       a.onload = () => p()
       a.onerror = () => {
@@ -5399,7 +5399,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     Gia = function (a, b) {
       return b.filter((c) => !a.na[c])
     }
-    Hia = function (a, b, c, { Gaa: d, onError: e, rAa: f, qCd: g } = {}) {
+    Hia = function (a, b, c, { Jaa: d, onError: e, vAa: f, CCd: g } = {}) {
       a.Ea = c
       if (!b) throw Error('qa')
       if (a.Gb) {
@@ -5435,9 +5435,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           g = e == 0 ? b : b.slice(e, b.length),
           p = Jia(a, g, d),
           t = _.lc(p).toString()
-        for (; t.length > a.lYa;) {
+        for (; t.length > a.oYa;) {
           if (f > 1) {
-            f -= Math.ceil((t.length - a.lYa) / 6),
+            f -= Math.ceil((t.length - a.oYa) / 6),
               f = Math.max(f, 1),
               g = b.slice(e, e + f),
               p = Jia(a, g, d),
@@ -5468,12 +5468,12 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       return a.wa
         ? tia(a.oa, b, {
           cssRowKey: a.Za,
-          nia: a.Xa,
-          Gaa: c,
-          bQb: Mia(a),
-          aQb: Nia(a),
+          ria: a.Xa,
+          Jaa: c,
+          hQb: Mia(a),
+          gQb: Nia(a),
         })
-        : sia(a.oa, b, { cssRowKey: a.Za, nia: a.Xa, bQb: Mia(a), aQb: Nia(a) })
+        : sia(a.oa, b, { cssRowKey: a.Za, ria: a.Xa, hQb: Mia(a), gQb: Nia(a) })
     }
     _.Ye = function (a, b) {
       var c = []
@@ -5503,7 +5503,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     Iia = function (a, b, c, d, e, f = {}) {
       var g = _.Tb()
       for (let p of b) {
-        b = g.Yx(p)
+        b = g.Zx(p)
         if (f[p] || e && !e(b)) continue
         f[p] = !0
         let t = b.ha || []
@@ -5524,7 +5524,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       return yia(a.toString())
     }
     Lia = function (a, b, c) {
-      _.Tb().bVa((b || {}).moduleGraph)
+      _.Tb().eVa((b || {}).moduleGraph)
       Iia(a, Mia(a), (d) => {
         _.Cia(a, [d.getId()])
       }, c)
@@ -5543,9 +5543,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         this.Ua = !0
         this.Va = (a = _.We(this.oa, 'excm')) ? a.split(',') : []
         this.Gb = e
-        this.mYa = !1
-        this.dKa = 'anonymous'
-        this.lYa = 4043
+        this.pYa = !1
+        this.hKa = 'anonymous'
+        this.oYa = 4043
         this.Pa = document.head || document.documentElement
         this.ma = this.Da = null
         this.tb = !0
@@ -5564,8 +5564,8 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       Fa() {}
       load(a, b, c, d, e = b) {
         _.lc(a)
-        var f = this.mYa,
-          g = this.dKa,
+        var f = this.pYa,
+          g = this.hKa,
           p = this.fetchPriority,
           t = _.Ee('SCRIPT')
         _.Ic(t, a)
@@ -5580,15 +5580,15 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     var Kda = []
     var Qia = function (a) {
         switch (a.type) {
-          case Pia.Type.Y7b:
+          case Pia.Type.d8b:
             return 'Unauthorized'
-          case Pia.Type.znb:
+          case Pia.Type.Cnb:
             return 'Consecutive load failures'
           case Pia.Type.TIMEOUT:
             return 'Timed out'
-          case Pia.Type.a5b:
+          case Pia.Type.f5b:
             return 'Out of date module id'
-          case Pia.Type.yob:
+          case Pia.Type.Bob:
             return 'Init error'
           default:
             return `Unknown failure type ${a.type}`
@@ -5600,7 +5600,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           this.name = 'ModuleLoadFailure'
           this.type = a
           this.status = b
-          this.bQb = c
+          this.hQb = c
           this.url = d
           this.cause = e
           this.message = this.toString()
@@ -5615,7 +5615,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         }
       }
     sd.OE = Pia
-    sd.OE.Type = { Y7b: 0, znb: 1, TIMEOUT: 2, a5b: 3, yob: 4 }
+    sd.OE.Type = { d8b: 0, Cnb: 1, TIMEOUT: 2, f5b: 3, Bob: 4 }
     var Ze = function () {
       gda.call(this)
       this.Za = null
@@ -5627,7 +5627,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       this.Fa = []
       this.ma = {}
       this.lb = {}
-      this.oa = this.Ua = new sd.rqb([], '')
+      this.oa = this.Ua = new sd.uqb([], '')
       this.tb = null
       this.Ma = new _.cc()
       this.Al = null
@@ -5643,14 +5643,14 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       _.ca.call(this, `Error loading ${a}: ${b}`)
     }
     _.xd(Ria, _.ca)
-    Ze.prototype.dIc = function (a) {
+    Ze.prototype.iIc = function (a) {
       this.mb = a
     }
-    Ze.prototype.kib = function (a) {
+    Ze.prototype.oib = function (a) {
       this.Xa = a
     }
-    Ze.prototype.bVa = function (a, b) {
-      if (!(this instanceof Ze)) this.bVa(a, b)
+    Ze.prototype.eVa = function (a, b) {
+      if (!(this instanceof Ze)) this.eVa(a, b)
       else if (typeof a === 'string') {
         if (a.startsWith('d$')) {
           a = a.substring(2)
@@ -5717,41 +5717,41 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       a.Za = c
     }
     _.h = Ze.prototype
-    _.h.Yx = function (a) {
+    _.h.Zx = function (a) {
       return this.na.get(a)
     }
-    _.h.XHa = function (a, b) {
-      var c = this.Yx(a)
+    _.h.bIa = function (a, b) {
+      var c = this.Zx(a)
       c && c.isLoaded()
         ? this.load(b)
         : (this.ma[a] || (this.ma[a] = {}), this.ma[a][b] = !0)
     }
-    _.h.NTa = function (a, b) {
+    _.h.QTa = function (a, b) {
       if (this.ma[a]) {
         delete this.ma[a][b]
         for (let c in this.ma[a]) return
         delete this.ma[a]
       }
     }
-    _.h.kVa = function (a) {
-      Ze.Hc.kVa.call(this, a)
+    _.h.nVa = function (a) {
+      Ze.Hc.nVa.call(this, a)
       Uia(this)
     }
     _.h.isActive = function () {
       return (this.ha instanceof Set ? this.ha.size : this.ha.length) > 0
     }
-    _.h.Ywc = function () {
+    _.h.exc = function () {
       return this.Fa.length > 0
     }
     var $e = function (a) {
         var b = a.Lb, c = a.isActive()
-        c != b && (Via(a, c ? Rha.bX : Rha.IDLE), a.Lb = c)
-        b = a.Ywc()
-        b != a.Ob && (Via(a, b ? Rha.Fid : Rha.Gid), a.Ob = b)
+        c != b && (Via(a, c ? Rha.dX : Rha.IDLE), a.Lb = c)
+        b = a.exc()
+        b != a.Ob && (Via(a, b ? Rha.Sid : Rha.Tid), a.Ob = b)
       },
       Sia = function (a, b, c) {
         var d = a.na.get(b)
-        d ? d.ha = c : a.na.set(b, new sd.rqb(c, b))
+        d ? d.ha = c : a.na.set(b, new sd.uqb(c, b))
       },
       Xia = function (a, b, c) {
         var d = []
@@ -5759,7 +5759,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         b = []
         var e = {}
         for (let f = 0; f < d.length; f++) {
-          let g = d[f], p = a.Yx(g)
+          let g = d[f], p = a.Zx(g)
           if (!p) throw Error('sa`' + g)
           let t = new _.cc()
           e[g] = t
@@ -5797,11 +5797,11 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         if (!a) throw Error('ta')
         if (Object.keys(this.ma).length > 0 && !a.tb) throw Error('ua')
         Hia(a, _.Aa(d), this.na, {
-          Gaa: this.ma,
+          Jaa: this.ma,
           onError: (e, f, g) =>
             $ia(this, this.Da, d, e != null ? e : void 0, f, b, !!g),
-          sAa: (0, _.Yb)(this.Tb, this),
-          qCd: !!c,
+          wAa: (0, _.Yb)(this.Tb, this),
+          CCd: !!c,
         })
       }
     }
@@ -5827,10 +5827,10 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         a.kb.has(b) || c.push(b)
         b = [b]
         for (let d = 0; d < b.length; d++) {
-          let e = a.Yx(b[d]).ha
+          let e = a.Zx(b[d]).ha
           for (let f = e.length - 1; f >= 0; f--) {
             let g = e[f]
-            a.Yx(g).isLoaded() || a.kb.has(g) || (c.push(g), b.push(g))
+            a.Zx(g).isLoaded() || a.kb.has(g) || (c.push(g), b.push(g))
           }
         }
         c.reverse()
@@ -5840,25 +5840,25 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       Uia = function (a) {
         if (a.oa == a.Ua) {
           a.oa = null
-          let b = a.Ua.onLoad((0, _.Yb)(a.opc, a))
+          let b = a.Ua.onLoad((0, _.Yb)(a.upc, a))
           b && b.length &&
-            bja(a, new sd.OE(sd.OE.Type.yob, void 0, void 0, void 0, b[0]))
+            bja(a, new sd.OE(sd.OE.Type.Bob, void 0, void 0, void 0, b[0]))
           $e(a)
         }
       }
-    Ze.prototype.fea = function () {
+    Ze.prototype.jea = function () {
       if (this.oa) {
         var a = this.oa.getId(), b = []
         if (this.ma[a]) {
           for (let c of Object.keys(this.ma[a])) {
-            let d = this.Yx(c)
-            d && !d.isLoaded() && (this.NTa(a, c), b.push(c))
+            let d = this.Zx(c)
+            d && !d.isLoaded() && (this.QTa(a, c), b.push(c))
           }
           this.Ea(b)
         }
         this.isDisposed() ||
-          ((b = this.na.get(a).onLoad((0, _.Yb)(this.opc, this))) && b.length &&
-            bja(this, new sd.OE(sd.OE.Type.yob, void 0, void 0, void 0, b[0])),
+          ((b = this.na.get(a).onLoad((0, _.Yb)(this.upc, this))) && b.length &&
+            bja(this, new sd.OE(sd.OE.Type.Bob, void 0, void 0, void 0, b[0])),
             _.za(this.Fa, a),
             this.ha instanceof Set ? this.ha.delete(a) : _.za(this.ha, a),
             (this.ha instanceof Set ? this.ha.size : this.ha.length) !== 0 ||
@@ -5887,15 +5887,15 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     Ze.prototype.Fb = function (a) {
       this.oa && this.oa.getId() === 'synthetic_module_overhead' &&
-        (this.fea(), this.na.delete('synthetic_module_overhead'))
+        (this.jea(), this.na.delete('synthetic_module_overhead'))
       var b = this.na.get(a)
       b && dja(this, b.ha || [], (c) => {
-        c.fea()
+        c.jea()
         this.ha instanceof Set
           ? this.ha.delete(c.getId())
           : _.za(this.ha, c.getId())
       }, (c) => !c.isLoaded())
-      this.oa = this.Yx(a)
+      this.oa = this.Zx(a)
       this.oa.Da = !0
     }
     var $ia = function (a, b, c, d, e, f = 0, g = !1) {
@@ -5903,9 +5903,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       f = _.Aa(c)
       a.Da = b
       for (let t of c) a.kb.delete(t)
-      if (d == 401) bja(a, new sd.OE(sd.OE.Type.Y7b, d)), a.ka.length = 0
-      else if (d == 410) eja(a, new sd.OE(sd.OE.Type.a5b, d)), cja(a)
-      else if (p >= 3) eja(a, new sd.OE(sd.OE.Type.znb, d, f, e)), cja(a)
+      if (d == 401) bja(a, new sd.OE(sd.OE.Type.d8b, d)), a.ka.length = 0
+      else if (d == 410) eja(a, new sd.OE(sd.OE.Type.f5b, d)), cja(a)
+      else if (p >= 3) eja(a, new sd.OE(sd.OE.Type.Cnb, d, f, e)), cja(a)
       else {
         let t = d == 8001 || !1
         ;(c = Math.pow(p, 2) * 5E3)
@@ -5957,7 +5957,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       cja = function (a) {
         for (; a.ka.length;) {
           let b = a.ka.shift().filter(function (c) {
-            return !this.Yx(c).isLoaded()
+            return !this.Zx(c).isLoaded()
           }, a)
           if (b.length > 0) {
             a.Va(b)
@@ -5972,7 +5972,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       },
       dja = function (a, b, c, d = () => !0, e = {}) {
         for (let f of b) {
-          b = a.Yx(f),
+          b = a.Zx(f),
             !e[f] && d(b) && (e[f] = !0, dja(a, b.ha || [], c, d, e), c(b))
         }
       }
@@ -5995,15 +5995,15 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     var fja, gja, jja, kja, lja, mja, hja, ija
     fja = [5E3, 2E4]
     gja = function (a) {
-      a.ka && a.ka.getId() == '{base}' && a.fea()
+      a.ka && a.ka.getId() == '{base}' && a.jea()
     }
     jja = function (a, b) {
-      b = b.filter((c) => !a.Pa(c) && !a.Yx(c).isLoaded())
+      b = b.filter((c) => !a.Pa(c) && !a.Zx(c).isLoaded())
       b.length > 0 && (hja(a, ...b), a.na.push(b), ija(a))
     }
     kja = function (a, b) {
       return new _.ee((c, d) => {
-        var e = a.Yx(b)
+        var e = a.Zx(b)
         e.isLoaded() ? c(a.wa) : (Oha(e, () => {
           c(a.wa)
         }),
@@ -6017,7 +6017,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     lja = function (a, b, c, d = () => !0, e = {}) {
       for (let f of b) {
-        b = a.Yx(f),
+        b = a.Zx(f),
           !e[f] && d(b) && (e[f] = !0, lja(a, b.ha || [], c, d, e), c(b))
       }
     }
@@ -6033,7 +6033,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
     }
     ija = function (a) {
       for (; a.oa < a.Fa && a.na.length > 0;) {
-        let b = a.na.shift().filter((c) => !a.Yx(c).isLoaded())
+        let b = a.na.shift().filter((c) => !a.Zx(c).isLoaded())
         if (b.length > 0) {
           a.oa++
           let c = () => {
@@ -6048,7 +6048,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
             e = () => {
               if (Object.keys(a.ha).length > 0 && !a.Ba.tb) throw Error('ua')
               Hia(a.Ba, b, a.ma, {
-                Gaa: a.ha,
+                Jaa: a.ha,
                 onError: (f, g) => {
                   var p = fja[d++]
                   p !== void 0
@@ -6058,9 +6058,9 @@ this.default_BardChatUi = this.default_BardChatUi || {}
                     : (mja(a, ...b),
                       c(),
                       b.forEach((t) => {
-                        t = a.Yx(t)
+                        t = a.Zx(t)
                         if (!t.isLoaded()) {
-                          t.onError(new sd.OE(sd.OE.Type.znb, f, b, g))
+                          t.onError(new sd.OE(sd.OE.Type.Cnb, f, b, g))
                         }
                       }))
                 },
@@ -6080,26 +6080,26 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         this.na = []
         this.ha = Object.create(null)
         this.Al = null
-        this.ka = this.Yx('{base}')
+        this.ka = this.Zx('{base}')
       }
-      bVa() {
+      eVa() {
         gja(this)
       }
-      kVa(a) {
-        super.kVa(a)
+      nVa(a) {
+        super.nVa(a)
         gja(this)
       }
-      Yx(a) {
+      Zx(a) {
         var b = this.ma.get(a)
-        b || (b = new sd.rqb([], a), this.ma.set(a, b))
+        b || (b = new sd.uqb([], a), this.ma.set(a, b))
         return b
       }
-      XHa(a, b) {
-        this.Yx(a).isLoaded()
+      bIa(a, b) {
+        this.Zx(a).isLoaded()
           ? this.load(b)
           : (this.ha[a] || (this.ha[a] = {}), this.ha[a][b] = !0)
       }
-      NTa(a, b) {
+      QTa(a, b) {
         if (this.ha[a]) {
           delete this.ha[a][b]
           for (let c in this.ha[a]) return
@@ -6124,23 +6124,23 @@ this.default_BardChatUi = this.default_BardChatUi || {}
       Fb(a) {
         var b
         ;((b = this.ka) == null ? void 0 : b.getId()) ===
-            'synthetic_module_overhead' && this.fea()
+            'synthetic_module_overhead' && this.jea()
         b = this.ma.get(a)
         var c
         lja(
           this,
           (c = b == null ? void 0 : b.ha) != null ? c : [],
-          (d) => d.fea(),
+          (d) => d.jea(),
           (d) => !d.isLoaded(),
         )
-        this.ka = this.Yx(a)
+        this.ka = this.Zx(a)
       }
-      fea() {
+      jea() {
         if (this.ka) {
           var a = this.ka.getId(), b = []
           if (this.ha[a]) {
             for (let c of Object.keys(this.ha[a])) {
-              this.Yx(c).isLoaded() || (this.NTa(a, c), b.push(c))
+              this.Zx(c).isLoaded() || (this.QTa(a, c), b.push(c))
             }
             this.Ea(b)
           }
@@ -6151,13 +6151,13 @@ this.default_BardChatUi = this.default_BardChatUi || {}
           mja(this, a)
         }
       }
-      kib(a) {
+      oib(a) {
         this.Fa = a ? Infinity : 1
       }
     }
     var oja = new _.nja()
-    oja.kib(!0)
-    oja.kVa(new _.ne())
+    oja.oib(!0)
+    oja.nVa(new _.ne())
     _.Uba(oja)
     ;(new _.Uha(oja)).init()
     _.Nda()
@@ -6183,7 +6183,7 @@ this.default_BardChatUi = this.default_BardChatUi || {}
         if (!_.Tba) return
         _.Uba(_.Tba())
       }
-      _.Sb.bVa(a, b)
+      _.Sb.eVa(a, b)
     }
     _._ModuleManager_initialize('', [])
   } catch (e) {
